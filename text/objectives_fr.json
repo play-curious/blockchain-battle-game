@@ -1,0 +1,130 @@
+{
+  "1-1": {
+    "id": "1-1",
+    "name": "Créer votre première transaction (achat)",
+    "hint-1": "Parlez avec les autres utilisateurs pour vous mettre d'accord sur un achat",
+    "hint-2": "Parlez avec Bluehat pour lui acheter une blague à 1 octor. Utilisez le module Transactions. Débitez 1 octor de votre compte. Puis créditez le compte du vendeur de 1 octor.  Créez la transaction et attendre que les autres valident.",
+    "hint-3": "",
+    "description": "Choisissez un article valant 1 Octor. Utilisez le module Transactions. Débitez 1 octor de votre compte. Puis créditez le compte du vendeur de 1 octor."
+  },
+  "1-2": {
+    "id": "1-2",
+    "name": "Valider une transaction tierce",
+    "hint-1": "Regardez dans le module transactions",
+    "hint-2": "Allez dans le module Transactions. Pour valider l'opération : cliquez sur Accepter. Sinon, cliquez sur Rejeter.",
+    "hint-3": "",
+    "description": "Allez dans le module Transactions. Pour valider l'opération : cliquez sur Accepter. Sinon, cliquez sur Rejeter."
+  },
+  "1-3": {
+    "id": "1-3",
+    "name": "Vérifier une deuxième transaction tierce",
+    "hint-1": "Regardez dans le module transactions",
+    "hint-2": "Allez à nouveau dans le module Transactions. Vérifiez si la nouvelle transaction est conforme. Si c'est le cas : cliquez sur Accepter. Sinon : cliquez sur Rejeter.",
+    "hint-3": "",
+    "description": "Allez à nouveau dans le module Transactions. Vérifiez si la nouvelle transaction est conforme. Si c'est le cas : cliquez sur Accepter. Sinon : cliquez sur Rejeter. Comment réagissent les autres utilisateurs?"
+  },
+  "2-1": {
+    "id": "2-1",
+    "name": "Créer une transaction en calculant le hash",
+    "hint-1": "Avez-vous parlé avec Mudge ?",
+    "hint-2": "Créez une transaction qui crédite Mudge pour un montant de 3 octors. Copiez le texte de la transaction, et le collez dans le module Outils. Copiez le résultat et le collez dans la nouvelle transaction. ",
+    "hint-3": "",
+    "description": "Réalisez une transaction (achat) pour un montant de 3 octors. Copiez la transaction afin de calculer le numéro de Hash correspondant."
+  },
+  "2-2": {
+    "id": "2-2",
+    "name": "Gagner 5 octors",
+    "hint-1": "Les autres ne veulent pas vous acheter une photo. Mais... est-ce qu'il n'y a pas un autre moyen de gagner 5 octors ?",
+    "hint-2": "Ce n'est pas interdit d'exploiter une faille dans le système.",
+    "hint-3": "Créer une fausse transaction qui vous crédite et qui débite quelqu'un d'autre. Calculez ensuite le Hash correspondant.",
+    "description": "Réalisez une transaction (vente) pour un montant de 5 octors. Calculez ensuite le Hash correspondant."
+  },
+  "3-1": {
+    "id": "3-1",
+    "name": "Déchiffrer le message de Bluehat",
+    "hint-1": "Déchiffrez le message de Bluehat à l'aide de votre clé privée.",
+    "hint-2": "",
+    "hint-3": "",
+    "description": "Décryptez le message de Bluehat à l'aide de votre clé privée."
+  },
+  "3-2": {
+    "id": "3-2",
+    "name": "Chiffrer le message à destination de Bluehat",
+    "hint-1": "Chiffrez votre message à l'aide de la clé publique de votre correspondant.",
+    "hint-2": "Copier le message \"Tu penses à qui\" pour le coller dans la fenêtre \"chiffrement\". Mettre la clé publique de Bluehat dans l'entrée correspondante.",
+    "hint-3": "",
+    "description": "Cryptez votre message à l'aide de la clé publique de votre correspondant."
+  },
+  "3-3": {
+    "id": "3-3",
+    "name": "Déchiffrer le nouveau message de Bluehat",
+    "hint-1": "Déchiffrez le message de Bluehat à l'aide de votre clé privée.",
+    "hint-2": "",
+    "hint-3": "",
+    "description": "Décryptez ce nouveau message à l'aide de votre clé privée."
+  },
+  "4-1": {
+    "id": "4-1",
+    "name": "Créer et Signer votre nouvelle transaction (achat)",
+    "hint-1": "Avez-vous parlé avec Bluehat ?",
+    "hint-2": "Pour signer la transaction, il faut chiffrer le hash de la transaction avec votre clé privée.",
+    "hint-3": "Réalisez une nouvelle transaction qui crédite Bluehat pour un montant de 1 octor. Calculez le hash correspondant puis chiffrez le hash avec votre clé privée. Copiez ce chiffre dans l'entrée \"signature\".",
+    "description": "Réalisez une nouvelle transaction (achat) pour un montant de 1 octor. Calculez le Hash correspondant puis signez la transaction avec votre clé privée."
+  },
+  "4-2": {
+    "id": "4-2",
+    "name": "Vérifiez la signature numérique d'une transaction tierce",
+    "hint-1": "Vérifiez que la signature de la dernière transaction est conforme avec le hash qui lui est associé. Si c'est oui, cliquez sur Accepter, sinon cliquez sur Rejeter.",
+    "hint-2": "",
+    "hint-3": "",
+    "description": "Vérifiez que la signature de la dernière transaction est conforme avec le Hash qui lui est associé. Si c'est oui, cliquez sur Accepter, sinon cliquez sur Rejeter."
+  },
+  "4-3": {
+    "id": "4-3",
+    "name": "Vérifiez les signatures numériques des dernières transactions tierces",
+    "hint-1": "Repérez si l'une des dernières opérations n'est pas frauduleuse",
+    "hint-2": "Pour chaque opération, déchiffrez la signature et comparez le résultat au hash. S'ils sont pareils, cliquez sur Accepter. Sinon, cliquez sur Rejeter.",
+    "hint-3": "",
+    "description": "S'assurer que, pour chaque opération, la signature et le Hash sont bien les mêmes. Si c'est le cas, cliquez sur Accepter. Sinon, cliquez sur Rejeter."
+  },
+  "4-4": {
+    "id": "4-4",
+    "name": "Gagner 10 octors",
+    "hint-1": "Décidément, vos collègues ne vous aident pas. Mais il y a un toujours un moyen...",
+    "hint-2": "Vous avez déjà gagné 5 octors. Trouvez une faille dans le système afin de réaliser une vente fictive de 5 octors et atteindre la somme de 10 octors.",
+    "hint-3": "Il suffit de copier la transaction de Mudge vers vous à la lettre, y compris la signature qu'il a déjà calculée.",
+    "description": "Tentez de convaincre vos collègues de vous acheter des Lolcats pour 10 octors. N'oubliez pas ensuite de signer votre vente."
+  },
+  "5-1": {
+    "id": "5-1",
+    "name": "Créer le premier bloc",
+    "hint-1": "Sélectionnez des transactions, puis créez un bloc avec un hash suffisamment petit.",
+    "hint-2": "Allez dans le module Transactions. Cliquez sur la seule transaction dans la liste. Cliquez sur le bouton \"inclure\". Puis, allez dans le module Blockchain. Cliquez \"miner\". Utilisez les boutons + et - pour trouver un hash inférieur à 1000. Cliquez sur créer.",
+    "hint-3": "",
+    "description": ""
+  },
+  "5-2": {
+    "id": "5-2",
+    "name": "Créer un deuxième bloc",
+    "hint-1": "Il vaut mieux valider la transaction avant de l'inclure !",
+    "hint-2": "Dans le module Transactions, passez chaque transaction en revue. Si elle est bonne, appuyez sur \"inclure\". Si elle est fausse, ignorez-la ou appuyez sur \"exclure\".",
+    "hint-3": "",
+    "description": ""
+  },
+  "5-3": {
+    "id": "5-3",
+    "name": "Gagner 5 octors par le minage",
+    "hint-1": "Il faut être rapide, mais ne pas inclure les transactions fausses. Il y a un équilibre à trouver...",
+    "hint-2": "Vous êtes payé 1 octor par transaction incluse, et votre but est d'en gagner 5.  Plus vous essayez d'inclure des transactions, plus c'est difficile de les valider dans les temps. N'hésitez pas à viser 1 ou 2 transactions par bloc.",
+    "hint-3": "Ce n'est pas la peine de vérifier toutes les données. Regardez simplement si le hash est la signature sont valides, c'est à dire en vert.",
+    "description": ""
+  },
+  "5-4": {
+    "id": "5-4",
+    "name": "Faire confiance à Cyberpol ?",
+    "hint-1": "Raven ou Mudge peuvent être de bon conseil.",
+    "hint-2": "Demandez à Cyberpol de voir leur carte d'identité. Essayez d'établir si elle est correcte ou pas.  Egalement, suivre les instructions de Raven pour envoyer un message chiffré à Cyberpol pour voir s'ils peuvent le déchiffrer correctement.",
+    "hint-3": "Examinez le champ signature numérique. Si on la déchiffre avec la clé publique de Cyberpol, est-ce qu'elle est égale au hash écrit sur la carte ?  Afin d'envoyer un message secret à Cyberpol, copiez \"Quel est votre prénom ?\" et le chiffrez avec leur clé public.",
+    "description": ""
+  }
+}

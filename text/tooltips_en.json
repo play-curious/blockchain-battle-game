@@ -1,0 +1,132 @@
+{
+  "1-scroll": {
+    "id": "1-scroll",
+    "text": "Scroll the chat messages",
+    "text_fr": "Faire défiler les messages"
+  },
+  "1-menu": {
+    "id": "1-menu",
+    "text": "Go back to the menu",
+    "text_fr": "Revenir au menu"
+  },
+  "1-go-to-network": {
+    "id": "1-go-to-network",
+    "text": "Go to the network",
+    "text_fr": "Aller au réseau"
+  },
+  "1-network": {
+    "id": "1-network",
+    "text": "See the users",
+    "text_fr": "Voir les utilisateurs"
+  },
+  "1-create-transaction": {
+    "id": "1-create-transaction",
+    "text": "Create a transaction",
+    "text_fr": "Créer une transaction"
+  },
+  "1-credit": {
+    "id": "1-credit",
+    "text": "Choose who to credit and who to debit (D = Draper, M = Mudge, ...)",
+    "text_fr": "Choisir à qui créditer et à qui débiter (D = Draper, M = Mudge, ...)"
+  },
+  "1-judging": {
+    "id": "1-judging",
+    "text": "The other users judge",
+    "text_fr": "Les utilisateurs valident"
+  },
+  "2-hash-copy-transaction": {
+    "id": "2-hash-copy-transaction",
+    "text": "Copy the transaction text",
+    "text_fr": "Copier le texte de la transaction"
+  },
+  "2-hash-tools": {
+    "id": "2-hash-tools",
+    "text": "Open the toolbox",
+    "text_fr": "Ouvrir la boîte à outils"
+  },
+  "2-hash-paste-transaction": {
+    "id": "2-hash-paste-transaction",
+    "text": "Paste the transaction text",
+    "text_fr": "Coller le text de la transaction"
+  },
+  "2-hash-copy-hash": {
+    "id": "2-hash-copy-hash",
+    "text": "Copy the hash",
+    "text_fr": "Copier le hachage"
+  },
+  "2-hash-close": {
+    "id": "2-hash-close",
+    "text": "Close the toolbox",
+    "text_fr": "Fermer la boîte à outils"
+  },
+  "2-hash-paste-end": {
+    "id": "2-hash-paste-end",
+    "text": "Paste the hash",
+    "text_fr": "Coller le hachage"
+  },
+  "3-decrypt-copy-message": {
+    "id": "3-decrypt-copy-message",
+    "text": "Copy their message",
+    "text_fr": "Copier son message"
+  },
+  "3-decrypt-paste-message": {
+    "id": "3-decrypt-paste-message",
+    "text": "Paste their message",
+    "text_fr": "Coller le message"
+  },
+  "3-decrypt-copy-private-key": {
+    "id": "3-decrypt-copy-private-key",
+    "text": "Copy your private key",
+    "text_fr": "Copier votre clé privée"
+  },
+  "3-decrypt-paste-key": {
+    "id": "3-decrypt-paste-key",
+    "text": "Paste your private key",
+    "text_fr": "Coller votre clé privée"
+  },
+  "3-decrypt-select": {
+    "id": "3-decrypt-select",
+    "text": "Select decrypt",
+    "text_fr": "Sélectionner déchiffrage"
+  },
+  "3-encrypt-copy-message": {
+    "id": "3-encrypt-copy-message",
+    "text": "Copy your message",
+    "text_fr": "Copier votre message"
+  },
+  "4-sign-copy-hash": {
+    "id": "4-sign-copy-hash",
+    "text": "Copy the hash",
+    "text_fr": "Copier le hash"
+  },
+  "4-sign-paste-hash": {
+    "id": "4-sign-paste-hash",
+    "text": "Paste the hash",
+    "text_fr": "Coller le hash"
+  },
+  "4-sign-copy-private-key": {
+    "id": "4-sign-copy-private-key",
+    "text": "Copy your private key",
+    "text_fr": "Copier votre clé privée"
+  },
+  "4-sign-paste-key": {
+    "id": "4-sign-paste-key",
+    "text": "Paste your private key",
+    "text_fr": "Coller votre clé privée"
+  },
+  "5-mine-include-transaction": {
+    "id": "5-mine-include-transaction",
+    "text": "Include the transaction",
+    "text_fr": "Incluez la transaction"
+  },
+  "5-mine-find-nonce": {
+    "id": "5-mine-find-nonce",
+    "text": "Find a nonce where the hash is less than 1000",
+    "text_fr": "Trouver un nonce où le hash vaut moins de 1000"
+  },
+  "5-copy-message": {
+    "id": "5-copy-message",
+    "text": "Copy this message",
+    "text_fr": "Copier son message"
+  }
+}

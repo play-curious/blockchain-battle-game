@@ -1,0 +1,98 @@
+{
+  "0-1": {
+    "id": "0-1",
+    "text": "Draper - ----We urgently need your help.  --We are developing a new cryptocurrency, and we can't afford any high-profile hacks.  --Can you do a full security test? --Whatever your normal rate is, we will triple it.   ---- - Smith",
+    "button": "Accept",
+    "text_fr": "Bonjour Draper - ----Nous avons besoin de vos services.  --Nous sommes en train de développer une nouvelle cryptomonnaie et nous voulons vérifier sa fiabilité.  --Pourriez-vous mettre sa sécurité à l'épreuve ?  --Nous sommes disposés à vous payer grassement.  ---- - Smith"
+  },
+  "0-2": {
+    "id": "0-2",
+    "text": "Perfect, I knew we could count on you. ----Before you jump in, enjoy our brand new trailer.",
+    "button": "Play",
+    "text_fr": "Parfait, je savais qu'on pouvait compter sur vous.  ----Avant de commencer votre job, je vous demande de regarder la vidéo de présentation de notre cryptomonnaie. "
+  },
+  "4-1": {
+    "id": "4-1",
+    "text": "--Someone snuck a virus into Octor. I had no choice but to shut down the system. ----I was able to save the code before it was too late, the virus didn't have the time to destroy the system core.",
+    "button": "OK",
+    "text_fr": "--Quelqu'un a introduit un virus dans Octor. J'ai été obligé de fermer la session.  ----J'ai pu récupérer nos données avant qu'il ne soit trop tard, le virus n'a pas eu le temps de détruire le cœur de notre système. "
+  },
+  "4-2": {
+    "id": "4-2",
+    "text": "--Not only have we been able to restart Octor, we have improved it.",
+    "button": "Go",
+    "text_fr": "--Non seulement nous avons pu réinitialiser Octor, mais nous l'avons amélioré."
+  },
+  "5-lose-1": {
+    "id": "5-lose-1",
+    "text": "What a shame, Draper. We had bet so much on you. ----Unfortunately, you're not up to the task that we was preparing to entrust you with.",
+    "button": "What??",
+    "text_fr": "--Dommage, Draper. Nous avions misé beaucoup sur vous.  ----Malheureusement, vous n'êtes pas à la hauteur de la tâche que je comptais vous confier."
+  },
+  "5-lose-2": {
+    "id": "5-lose-2",
+    "text": "--All this was only a game- ----a cyber-simulation to test if you had the skills and attitude required to track the attacks and fraudulent activity that lurk in the world of cryptocurrency! ",
+    "button": "Excuse me?!",
+    "text_fr": "--Tout ceci n'était qu'un jeu-  ----une cyber simulation afin de vérifier que vous aviez bien les compétences et l'attitude requises pour traquer les attaques et les fraudes qui se glissent dans le monde des cryptomonnaies !"
+  },
+  "5-lose-3-yes": {
+    "id": "5-lose-3-yes",
+    "text": "You did check if the ID card was valid, but it's very easy for a pirate to copy an official card. ----That's not enough, you need to try something else.",
+    "button": "But...",
+    "text_fr": "\"Vous vous êtes assuré que la carte était valide, mais il est très facile pour un pirate de copier une carte officielle.  ----Ce n'est pas suffisant, il faut essayer autre chose.\""
+  },
+  "5-lose-3-id": {
+    "id": "5-lose-3-id",
+    "text": "You made a big mistake. The ID card was indeed valid. ----Nevertheless, you were not entirely wrong in your approach. It is easy for a pirate to copy an ID card, so even a valid card wouldn't have been enough. ----You need to try something else to verify the identity of your correspondent.",
+    "button": "Nooon...",
+    "text_fr": "Vous vous êtes trompé. La carte était bien authentique.  ----Cependant, vous n'aviez pas tort dans le fond. Il est facile pour un pirate de copier une carte officielle.  ----Il faut essayer autre chose pour vérifier l'identité de votre interlocuteur."
+  },
+  "5-lose-4": {
+    "id": "5-lose-4",
+    "text": "I was thinking of hiring you as an inspector in Cyberpol, the international computer network police. ----But I overestimated you.",
+    "button": "I'll try again!",
+    "text_fr": "Je pensais vous embaucher comme inspecteur au sein de Cyberpol, la police des réseaux informatiques.  ----Mais je vous ai surestimé."
+  },
+  "5-lose-5": {
+    "id": "5-lose-5",
+    "text": "Sadly no, there will be no more versions of Octor. We cannot trust you 100%, and therefore you have failed, definitively.   ----Your file will now be classified as \"gray\"- hacker of dubious morality. We'll keep a close watch on you.",
+    "button": "That's unfair!",
+    "text_fr": "Hélas non, il n'y aura pas de mise à jour d'Octor. Vous avez échoué définitivement. Nous ne pouvons pas vous faire confiance à 100%.  ----Je vous informe qu'en conséquence, votre dossier contient désormais une classification grise : hacker à la moralité variable - à surveiller."
+  },
+  "5-lose-6": {
+    "id": "5-lose-6",
+    "text": "That's the price of failure, Draper.  ----Be more careful in your future adventures.",
+    "button": "ಥ﹏ಥ",
+    "text_fr": "C'est la rançon de l'insuccès, Draper.  ----Faites attention pour la suite de vos aventures."
+  },
+  "5-win-1": {
+    "id": "5-win-1",
+    "text": "Congratulations, Draper! ----You found the flaw. Only a real Cyberpol representative would have access to their private key.",
+    "button": "What??",
+    "text_fr": "Félicitations Draper !  ----Vous avez trouvé la faille. Seul un véritable représentant de Cyberpol aurait accès à la clé privée."
+  },
+  "5-win-2": {
+    "id": "5-win-2",
+    "text": "Your correspondent was an imposter, and couldn't decipher your message. They had to bluff a response. ----Whereas it is very easy for a pirate to copy an official card. ----Excellent work!",
+    "button": "Really?!",
+    "text_fr": "Votre interlocuteur étant un imposteur, il n'a pas pu déchiffrer votre message. Il a répondu à côté.  ----Alors qu'il est très facile pour un pirate de copier une carte officielle. ----Bravo !"
+  },
+  "5-win-3": {
+    "id": "5-win-3",
+    "text": "--All this was only a game- --a cyber simulation to test if you had the skills and attitude required to track the attacks and fraudulent activity that lurk in the world of cryptocurrency!  ----You have succeeded our aptitude test with flying colors. You can now enter Cyberpol, the international computer network police.  ----Would you like to work on the side of justice, Draper?",
+    "button": "It's an honor",
+    "text_fr": "--Tout ceci n'était qu'un jeu-  --une cyber simulation afin de vérifier que vous aviez bien les compétences et l'attitude requises pour traquer les attaques et les fraudes qui se glissent dans le monde des cryptomonnaies ! ----Vous avez réussi haut la main les tests d'aptitude d'entrée à Cyberpol, la police internationale de réseaux informatiques.  ----Voulez-vous travailler pour la justice et la légalité, Draper ?"
+  },
+  "5-win-4": {
+    "id": "5-win-4",
+    "text": "Then welcome to Cyberpol. I won't introduce you to your colleagues: Mudge, Bluehat, and Raven. You know them already. ----You made the right choice- security and legality. Rather than pirating and scamming.",
+    "button": "Of course",
+    "text_fr": "Alors bienvenue dans nos rangs. Je ne vous présente pas vos collègues : Mudge, Bluehat, Raven. Vous les connaissez déjà. ----Vous avez fait le bon choix : l'informatique et la légalité. Plutôt que la piraterie et l'escroquerie."
+  },
+  "5-win-5": {
+    "id": "5-win-5",
+    "text": "After all, how would you ever manage to cheat internet users when you can't even sell a few LoLcats?",
+    "button": "¯\\_(ツ)_/¯",
+    "text_fr": "Après tout, comment voulez-vous arnaquer les internautes alors que vous n'arrivez pas à écouler vos LoLcats ?"
+  }
+}

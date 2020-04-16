@@ -1,0 +1,177 @@
+{
+  "new-message": {
+    "id": "new-message",
+    "type": "",
+    "text": "Nouveau message reçu"
+  },
+  "0-network": {
+    "id": "0-network",
+    "type": "",
+    "text": "Module réseau débloqué"
+  },
+  "0-ledger": {
+    "id": "0-ledger",
+    "type": "",
+    "text": "Module registre débloqué"
+  },
+  "1-objectives": {
+    "id": "1-objectives",
+    "type": "",
+    "text": "Module objectifs débloqué"
+  },
+  "1-transactions": {
+    "id": "1-transactions",
+    "type": "",
+    "text": "Module transactions débloqué"
+  },
+  "2-inventory": {
+    "id": "2-inventory",
+    "type": "",
+    "text": "Module inventaire débloqué"
+  },
+  "objective-new": {
+    "id": "objective-new",
+    "type": "",
+    "text": "Nouvel objectif débloqué"
+  },
+  "objective-succeeded": {
+    "id": "objective-succeeded",
+    "type": "",
+    "text": "Objectif réussi"
+  },
+  "objective-failed": {
+    "id": "objective-failed",
+    "type": "error",
+    "text": "Objectif échoué"
+  },
+  "objective-abandoned": {
+    "id": "objective-abandoned",
+    "type": "",
+    "text": "Objectif abandonné"
+  },
+  "transaction-created": {
+    "id": "transaction-created",
+    "type": "",
+    "text": "Transaction créée"
+  },
+  "transaction-error-same-user": {
+    "id": "transaction-error-same-user",
+    "type": "error",
+    "text": "Erreur : Créditeur et débiteur sont le même"
+  },
+  "transaction-error-zero": {
+    "id": "transaction-error-zero",
+    "type": "error",
+    "text": "Erreur : Transaction pour zéro octors"
+  },
+  "transaction-accepted": {
+    "id": "transaction-accepted",
+    "type": "",
+    "text": "Transaction acceptée"
+  },
+  "transaction-rejected": {
+    "id": "transaction-rejected",
+    "type": "",
+    "text": "Transaction rejetée"
+  },
+  "transaction-error-hash-missing": {
+    "id": "transaction-error-hash-missing",
+    "type": "error",
+    "text": "Erreur : Hash manquant"
+  },
+  "transaction-error-hash-length": {
+    "id": "transaction-error-hash-length",
+    "type": "error",
+    "text": "Erreur : Hash doit être un nombre à 4 chiffres"
+  },
+  "transaction-error-hash-incorrect": {
+    "id": "transaction-error-hash-incorrect",
+    "type": "error",
+    "text": "Erreur : Hash incorrect"
+  },
+  "transaction-error-signature-missing": {
+    "id": "transaction-error-signature-missing",
+    "type": "error",
+    "text": "Erreur : Signature manquante"
+  },
+  "transaction-error-signature-format": {
+    "id": "transaction-error-signature-format",
+    "type": "error",
+    "text": "Erreur : Signature doit être un nombre à 12 chiffres"
+  },
+  "transaction-error-signature-incorrect": {
+    "id": "transaction-error-signature-incorrect",
+    "type": "error",
+    "text": "Erreur : Signature incorrecte"
+  },
+  "transaction-included": {
+    "id": "transaction-included",
+    "type": "",
+    "text": "Transaction incluse"
+  },
+  "transaction-excluded": {
+    "id": "transaction-excluded",
+    "type": "",
+    "text": "Transaction exclue"
+  },
+  "crypt-error-key-length": {
+    "id": "crypt-error-key-length",
+    "type": "error",
+    "text": "Erreur : Clé doit être un nombre à 6 chiffres"
+  },
+  "inventory-new-item": {
+    "id": "inventory-new-item",
+    "type": "",
+    "text": "Nouvel objet dans l'inventaire"
+  },
+  "3-corrupted": {
+    "id": "3-corrupted",
+    "type": "error",
+    "text": "ERREUR FATALE ! SYSTÈME CORROMPU !"
+  },
+  "5-blockchain": {
+    "id": "5-blockchain",
+    "type": "",
+    "text": "Module blockchain débloqué"
+  },
+  "5-shutdown": {
+    "id": "5-shutdown",
+    "type": "",
+    "text": "System shutdown requested"
+  },
+  "blockchain-error-previous-block-missing": {
+    "id": "blockchain-error-previous-block-missing",
+    "type": "error",
+    "text": "Erreur : Bloc précédent manquant"
+  },
+  "blockchain-error-previous-block-incorrect": {
+    "id": "blockchain-error-previous-block-incorrect",
+    "type": "error",
+    "text": "Erreur : Bloc précédent incorrect"
+  },
+  "blockchain-error-transactions-missing": {
+    "id": "blockchain-error-transactions-missing",
+    "type": "error",
+    "text": "Erreur : Transactions manquantes"
+  },
+  "blockchain-error-hash-incorrect": {
+    "id": "blockchain-error-hash-incorrect",
+    "type": "error",
+    "text": "Erreur : Hash trop grand"
+  },
+  "blockchain-block-created": {
+    "id": "blockchain-block-created",
+    "type": "",
+    "text": "Bloc créé"
+  },
+  "blockchain-block-added": {
+    "id": "blockchain-block-added",
+    "type": "",
+    "text": "Bloc ajouté par un autre utilisateur"
+  },
+  "blockchain-block-transaction-incorrect": {
+    "id": "blockchain-block-transaction-incorrect",
+    "type": "error",
+    "text": "Fausse signature détectée. Bloc rejeté"
+  }
+}

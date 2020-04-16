@@ -1,0 +1,101 @@
+{
+  "octor-1.0": {
+    "id": "octor-1.0",
+    "title": "Octor 1.0",
+    "type": "video",
+    "filename": "video/Octor-1.0.mp4",
+    "preview": "images/inventory/octor-1.0.jpg",
+    "music": "Octor-1.0",
+    "narration": "1"
+  },
+  "octor-2.0": {
+    "id": "octor-2.0",
+    "title": "Octor 2.0",
+    "type": "video",
+    "filename": "video/Octor-2.0.mp4",
+    "preview": "images/inventory/octor-2.0.jpg",
+    "music": "Octor-2.0",
+    "narration": "2"
+  },
+  "octor-3.0": {
+    "id": "octor-3.0",
+    "title": "Octor 3.0",
+    "type": "video",
+    "filename": "video/Octor-3.0.mp4",
+    "preview": "images/inventory/octor-3.0.jpg",
+    "music": "Octor-3.0",
+    "narration": "3"
+  },
+  "octor-4.0": {
+    "id": "octor-4.0",
+    "title": "Octor 4.0",
+    "type": "video",
+    "filename": "video/Octor-4.0.mp4",
+    "preview": "images/inventory/octor-4.0.jpg",
+    "music": "Octor-4.0",
+    "narration": "4"
+  },
+  "octor-5.0": {
+    "id": "octor-5.0",
+    "title": "Octor 5.0",
+    "type": "video",
+    "filename": "video/Octor-5.0.mp4",
+    "preview": "images/inventory/octor-5.0.jpg",
+    "music": "Octor-5.0",
+    "narration": "5"
+  },
+  "turing": {
+    "id": "turing",
+    "title": "Portrait pixel d'Alan Turing",
+    "type": "picture",
+    "filename": "images/inventory/alan-turing-pixel.jpg",
+    "preview": "",
+    "music": "",
+    "narration": ""
+  },
+  "cat1": {
+    "id": "cat1",
+    "title": "LoLcat",
+    "type": "animation",
+    "filename": "images/inventory/cat1.json",
+    "preview": "images/inventory/cat1-preview.png",
+    "music": "",
+    "narration": ""
+  },
+  "cat2": {
+    "id": "cat2",
+    "title": "LoLcat",
+    "type": "animation",
+    "filename": "images/inventory/cat2.json",
+    "preview": "images/inventory/cat2-preview.png",
+    "music": "",
+    "narration": ""
+  },
+  "cat3": {
+    "id": "cat3",
+    "title": "LoLcat",
+    "type": "animation",
+    "filename": "images/inventory/cat3.json",
+    "preview": "images/inventory/cat3-preview.png",
+    "music": "",
+    "narration": ""
+  },
+  "legend-of-lolcat": {
+    "id": "legend-of-lolcat",
+    "title": "Legend of LoLcat",
+    "type": "picture",
+    "filename": "images/inventory/legend-of-lolcat.jpg",
+    "preview": "",
+    "music": "",
+    "narration": ""
+  },
+  "cyberpol-card": {
+    "id": "cyberpol-card",
+    "title": "Cyberpol ID Card",
+    "type": "picture",
+    "filename": "images/cyberpol-card.jpg",
+    "preview": "",
+    "music": "",
+    "narration": ""
+  }
+}

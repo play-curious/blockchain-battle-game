@@ -1,0 +1,14 @@
+{
+  "episode2": {
+    "id": "episode2",
+    "text": "--Ready for what's next? -- --<accent>Play Blockchain Battle - Episode 2</accent> ",
+    "link": "https://playcurious.games/games/blockchain-battle-1/episode2.html",
+    "text_fr": "--La suite au prochain épisode... -- --<accent>Jouez à Blockchain Battle - Episode 2</accent> "
+  },
+  "subscribe": {
+    "id": "subscribe",
+    "text": "--Did you like this game? -- --<accent>Join the Curious Club and don't miss the next one!</accent> ",
+    "link": "https://playcurious.games/#subscribe",
+    "text_fr": "--Ce jeu vous a plu ?  -- --<accent>Rejoins le Curious Club et joue à nos prochains jeux !</accent> "
+  }
+}

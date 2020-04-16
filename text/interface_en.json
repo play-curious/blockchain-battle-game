@@ -1,0 +1,262 @@
+{
+  "chat": {
+    "id": "chat",
+    "text": "Chat",
+    "text_fr": "Messagerie"
+  },
+  "scratchpad": {
+    "id": "scratchpad",
+    "text": "Scratchpad",
+    "text_fr": "Brouillon"
+  },
+  "inventory": {
+    "id": "inventory",
+    "text": "Inventory",
+    "text_fr": "Inventaire"
+  },
+  "objectives": {
+    "id": "objectives",
+    "text": "Objectives",
+    "text_fr": "Objectifs"
+  },
+  "ledger": {
+    "id": "ledger",
+    "text": "Ledger",
+    "text_fr": "Registre"
+  },
+  "network": {
+    "id": "network",
+    "text": "Network",
+    "text_fr": "Réseau"
+  },
+  "blockchain": {
+    "id": "blockchain",
+    "text": "Blockchain",
+    "text_fr": "Blockchain"
+  },
+  "transactions": {
+    "id": "transactions",
+    "text": "Transactions",
+    "text_fr": "Transactions"
+  },
+  "toolbox": {
+    "id": "toolbox",
+    "text": "Toolbox",
+    "text_fr": "Outils"
+  },
+  "transactions-new": {
+    "id": "transactions-new",
+    "text": "Add",
+    "text_fr": "Ajouter"
+  },
+  "transactions-debit": {
+    "id": "transactions-debit",
+    "text": "Debit",
+    "text_fr": "Débiter"
+  },
+  "transactions-credit": {
+    "id": "transactions-credit",
+    "text": "Credit",
+    "text_fr": "Créditer"
+  },
+  "transactions-amount": {
+    "id": "transactions-amount",
+    "text": "Amount",
+    "text_fr": "Montant"
+  },
+  "transactions-hash": {
+    "id": "transactions-hash",
+    "text": "Hash",
+    "text_fr": "Hash"
+  },
+  "transactions-signature": {
+    "id": "transactions-signature",
+    "text": "Signature",
+    "text_fr": "Signature"
+  },
+  "transactions-create": {
+    "id": "transactions-create",
+    "text": "Create",
+    "text_fr": "Créer"
+  },
+  "transactions-cancel": {
+    "id": "transactions-cancel",
+    "text": "Cancel",
+    "text_fr": "Annuler"
+  },
+  "transactions-accept": {
+    "id": "transactions-accept",
+    "text": "Accept",
+    "text_fr": "Accepter"
+  },
+  "transactions-reject": {
+    "id": "transactions-reject",
+    "text": "Reject",
+    "text_fr": "Rejeter"
+  },
+  "transactions-include": {
+    "id": "transactions-include",
+    "text": "Include",
+    "text_fr": "Inclure"
+  },
+  "transactions-exclude": {
+    "id": "transactions-exclude",
+    "text": "Exclude",
+    "text_fr": "Exclure"
+  },
+  "blockchain-mine": {
+    "id": "blockchain-mine",
+    "text": "Mine",
+    "text_fr": "Miner"
+  },
+  "blockchain-create": {
+    "id": "blockchain-create",
+    "text": "Create",
+    "text_fr": "Créer"
+  },
+  "blockchain-miner": {
+    "id": "blockchain-miner",
+    "text": "Miner",
+    "text_fr": "Mineur"
+  },
+  "blockchain-transactions": {
+    "id": "blockchain-transactions",
+    "text": "Transactions",
+    "text_fr": "Transactions"
+  },
+  "blockchain-nonce": {
+    "id": "blockchain-nonce",
+    "text": "Nonce",
+    "text_fr": "Nonce"
+  },
+  "blockchain-previous-block": {
+    "id": "blockchain-previous-block",
+    "text": "Previous block",
+    "text_fr": "Bloc précédent"
+  },
+  "blockchain-reward": {
+    "id": "blockchain-reward",
+    "text": "Reward",
+    "text_fr": "Récompense"
+  },
+  "blockchain-no-transactions": {
+    "id": "blockchain-no-transactions",
+    "text": "No transactions included",
+    "text_fr": "Aucune transaction incluse"
+  },
+  "hint": {
+    "id": "hint",
+    "text": "Hint",
+    "text_fr": "Astuce"
+  },
+  "objectives-hint-1": {
+    "id": "objectives-hint-1",
+    "text": "Need help?",
+    "text_fr": "Besoin d'aide ? "
+  },
+  "objectives-hint-2": {
+    "id": "objectives-hint-2",
+    "text": "Something isn't clear?",
+    "text_fr": "Ce n'est pas encore clair ?"
+  },
+  "objectives-hint-3": {
+    "id": "objectives-hint-3",
+    "text": "Want to know more?",
+    "text_fr": "Tu veux en savoir plus ?"
+  },
+  "objectives-hint-cost": {
+    "id": "objectives-hint-cost",
+    "text": "Objective achieved: +5 points  l  Hint shown: -1 points",
+    "text_fr": ""
+  },
+  "score": {
+    "id": "score",
+    "text": "Score:",
+    "text_fr": ""
+  },
+  "points-part-done": {
+    "id": "points-part-done",
+    "text": "Level :part done!",
+    "text_fr": "Niveau :part terminé !"
+  },
+  "points-objectives": {
+    "id": "points-objectives",
+    "text": "Objectives: :succeeded / :total",
+    "text_fr": "Objectifs : :succeeded / :total"
+  },
+  "points-hints": {
+    "id": "points-hints",
+    "text": "Hints: :used / :total",
+    "text_fr": "Astuces : :used / :total"
+  },
+  "points-points": {
+    "id": "points-points",
+    "text": "Points: :points / :total ",
+    "text_fr": "Points : :points / :total "
+  },
+  "ledger-start": {
+    "id": "ledger-start",
+    "text": "start",
+    "text_fr": "début"
+  },
+  "ledger-balance": {
+    "id": "ledger-balance",
+    "text": "balance",
+    "text_fr": "solde"
+  },
+  "clipboard-copy": {
+    "id": "clipboard-copy",
+    "text": "Copy",
+    "text_fr": "Copier"
+  },
+  "clipboard-paste": {
+    "id": "clipboard-paste",
+    "text": "Paste",
+    "text_fr": "Coller"
+  },
+  "toolbox-hashing": {
+    "id": "toolbox-hashing",
+    "text": "Hash",
+    "text_fr": "Hachage"
+  },
+  "toolbox-encryption": {
+    "id": "toolbox-encryption",
+    "text": "Encryption",
+    "text_fr": "Chiffrement"
+  },
+  "toolbox-encrypt": {
+    "id": "toolbox-encrypt",
+    "text": "Encrypt",
+    "text_fr": "Chiffrer"
+  },
+  "toolbox-decrypt": {
+    "id": "toolbox-decrypt",
+    "text": "Decrypt",
+    "text_fr": "Déchiffrer"
+  },
+  "network-status-draper": {
+    "id": "network-status-draper",
+    "text": "New here",
+    "text_fr": ""
+  },
+  "network-status-bluehat": {
+    "id": "network-status-bluehat",
+    "text": "Update your software!",
+    "text_fr": ""
+  },
+  "network-status-raven": {
+    "id": "network-status-raven",
+    "text": "The \"Dark Web\"? It's me",
+    "text_fr": ""
+  },
+  "network-status-mudge": {
+    "id": "network-status-mudge",
+    "text": "Busy calculating, do not disturb",
+    "text_fr": ""
+  },
+  "network-status-cyberpol": {
+    "id": "network-status-cyberpol",
+    "text": "Ordinem, legem, securitas",
+    "text_fr": ""
+  }
+}

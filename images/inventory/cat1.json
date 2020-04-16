@@ -1,0 +1,79 @@
+{"frames": {
+
+"chat030.png":
+{
+	"frame": {"x":1,"y":1,"w":290,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":290,"h":163},
+	"sourceSize": {"w":290,"h":163}
+},
+"chat031.png":
+{
+	"frame": {"x":293,"y":1,"w":290,"h":163},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":290,"h":163},
+	"sourceSize": {"w":290,"h":163}
+},
+"chat032.png":
+{
+	"frame": {"x":1,"y":166,"w":290,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":290,"h":163},
+	"sourceSize": {"w":290,"h":163}
+},
+"chat033.png":
+{
+	"frame": {"x":293,"y":293,"w":290,"h":163},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":290,"h":163},
+	"sourceSize": {"w":290,"h":163}
+},
+"chat034.png":
+{
+	"frame": {"x":1,"y":331,"w":290,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":290,"h":163},
+	"sourceSize": {"w":290,"h":163}
+},
+"chat035.png":
+{
+	"frame": {"x":1,"y":496,"w":290,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":290,"h":163},
+	"sourceSize": {"w":290,"h":163}
+},
+"chat036.png":
+{
+	"frame": {"x":293,"y":585,"w":290,"h":163},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":290,"h":163},
+	"sourceSize": {"w":290,"h":163}
+},
+"chat037.png":
+{
+	"frame": {"x":1,"y":661,"w":290,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":290,"h":163},
+	"sourceSize": {"w":290,"h":163}
+}},
+"animations": {
+	"chat": ["chat030.png","chat031.png","chat032.png","chat033.png","chat034.png","chat035.png","chat036.png","chat037.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "cat1.png",
+	"format": "RGBA8888",
+	"size": {"w":457,"h":876},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:fc3d0613e66a39e5146aa79de7705ef7:68073687b276bb437d4bff090851d72d:c283e952326427b725af3b5cd55c5838$"
+}
+}

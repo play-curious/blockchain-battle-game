@@ -1,0 +1,178 @@
+{
+  "1-1": {
+    "id": "1-1",
+    "name": "Create your first transaction (purchase)",
+    "hint-1": "Talk to the other users to find who is willing to sell you something",
+    "hint-2": "Chat with BlueHat, and she'll sell you a joke for 1 Octor. Go to the Transactions module. Debit 1 Octor from your account, and credit her. Create the transaction and wait for the others to approve it.",
+    "hint-3": "",
+    "name_fr": "Créer votre première transaction (achat)",
+    "hint-1_fr": "Parlez avec les autres utilisateurs pour vous mettre d'accord sur un achat",
+    "hint-2_fr": "Parlez avec Bluehat pour lui acheter une blague à 1 octor. Utilisez le module Transactions. Débitez 1 octor de votre compte. Puis créditez le compte du vendeur de 1 octor.  Créez la transaction et attendre que les autres valident.",
+    "hint-3_fr": ""
+  },
+  "1-2": {
+    "id": "1-2",
+    "name": "Verify a third-party transaction",
+    "hint-1": "Look in the Transactions module.",
+    "hint-2": "Pick a transaction by tapping/clicking on it. If there's nothing wrong with it, then click Accept. Otherwise, click Reject.",
+    "hint-3": "",
+    "name_fr": "Valider une transaction tierce",
+    "hint-1_fr": "Regardez dans le module transactions",
+    "hint-2_fr": "Allez dans le module Transactions. Pour valider l'opération : cliquez sur Accepter. Sinon, cliquez sur Rejeter.",
+    "hint-3_fr": ""
+  },
+  "1-3": {
+    "id": "1-3",
+    "name": "Verify a second third-party transaction",
+    "hint-1": "BlueHat seems to think there's something wrong with one of the transactions.",
+    "hint-2": "Do the users have enough Octors to pay for their purchases?",
+    "hint-3": "",
+    "name_fr": "Vérifier une deuxième transaction tierce",
+    "hint-1_fr": "Regardez dans le module transactions",
+    "hint-2_fr": "Allez à nouveau dans le module Transactions. Vérifiez si la nouvelle transaction est conforme. Si c'est le cas : cliquez sur Accepter. Sinon : cliquez sur Rejeter.",
+    "hint-3_fr": ""
+  },
+  "2-1": {
+    "id": "2-1",
+    "name": "Create a transaction and calculate its hash",
+    "hint-1": "Did you talk to Mudge?",
+    "hint-2": "Create a transaction that credits Mudge for an amount of 3 Octors. Copy the text of the transaction (\"DRAPER / MUDGE / 3\") and paste it in the Toolbox module, in the top Hash box. Copy the resulting hash and paste it in the corresponding box of the Transactions screen.",
+    "hint-3": "",
+    "name_fr": "Créer une transaction en calculant le hash",
+    "hint-1_fr": "Avez-vous parlé avec Mudge ?",
+    "hint-2_fr": "Créez une transaction qui crédite Mudge pour un montant de 3 octors. Copiez le texte de la transaction, et le coller dans le module Outils. Copiez le résultat et le collez dans la nouvelle transaction. ",
+    "hint-3_fr": ""
+  },
+  "2-2": {
+    "id": "2-2",
+    "name": "Earn 5 Octors",
+    "hint-1": "Seems like nobody wants to buy a cat photo. But... is there another way to earn 5 Octors ? ",
+    "hint-2": "It's not theft to exploit a flaw in the system... What's stopping you from paying yourself?",
+    "hint-3": "Create a fake transaction for 5 Octors in which you credit yourself and debit someone else. Calculate the hash and you're on your way.",
+    "name_fr": "Gagner 5 octors",
+    "hint-1_fr": "Les autres ne veulent pas vous acheter une photo. Mais... est-ce qu'il n'y a pas un autre moyen de gagner 5 octors ?",
+    "hint-2_fr": "Ce n'est pas du vol d'exploiter une faille dans le système.",
+    "hint-3_fr": "Créer une fausse transaction qui vous crédite et qui débite quelqu'un d'autre. Calculez ensuite le Hash correspondant."
+  },
+  "3-1": {
+    "id": "3-1",
+    "name": "Decrypt BlueHat's message",
+    "hint-1": "Copy your private key and paste it into the decryption key box of the toolbox. Paste BlueHat's numerical message into the data box. Click on the resulting message to read it.",
+    "hint-2": "",
+    "hint-3": "",
+    "name_fr": "Déchiffrer le message de Bluehat",
+    "hint-1_fr": "Déchiffrer le message de Bluehat à l'aide de votre clé privée.",
+    "hint-2_fr": "",
+    "hint-3_fr": ""
+  },
+  "3-2": {
+    "id": "3-2",
+    "name": "Encrypt your reply to BlueHat",
+    "hint-1": "Encrypt your message \"Who are you thinking of?\" with BlueHat's public key.",
+    "hint-2": "Use the Encrypt feature of the toolbox instead of the Decrypt feature.",
+    "hint-3": "",
+    "name_fr": "Chiffrer le message à destination de Bluehat",
+    "hint-1_fr": "Chiffrez votre message à l'aide de la clé publique de votre correspondant.",
+    "hint-2_fr": "Copier le message \"Tu penses à qui\" pour le coller dans la fenêtre \"chiffrement\". Mettre la clé publique de Bluehat dans l'entrée correspondante.",
+    "hint-3_fr": ""
+  },
+  "3-3": {
+    "id": "3-3",
+    "name": "Decrypt BlueHat's new message",
+    "hint-1": "Copy your private key and paste it into the decryption key box of the toolbox. Paste BlueHat's numerical message into the data box. Click on the resulting message to read it.",
+    "hint-2": "",
+    "hint-3": "",
+    "name_fr": "Déchiffrer le nouveau message de Bluehat",
+    "hint-1_fr": "Déchiffrez le message de Bluehat à l'aide de votre clé privée.",
+    "hint-2_fr": "",
+    "hint-3_fr": ""
+  },
+  "4-1": {
+    "id": "4-1",
+    "name": "Create and sign a new transaction (purchase)",
+    "hint-1": "Did you talk with BlueHat?",
+    "hint-2": "To sign the transaction, you need to encrypt the hash of the transaction with your private key.",
+    "hint-3": "Create a new transaction that credits BlueHat for an amount of 1 Octor.  Calculate the corresponding hash, then encrypt that hash with your private key. Copy that key in \"signature\".",
+    "name_fr": "Créer et Signer votre nouvelle transaction (achat)",
+    "hint-1_fr": "Avez-vous parlé avec Bluehat ?",
+    "hint-2_fr": "Pour signer la transaction, il faut chiffrer le hash de la transaction avec votre clé privée.",
+    "hint-3_fr": "Réalisez une nouvelle transaction qui crédite Bluehat pour un montant de 1 octor. Calculez le hash correspondant puis chiffrez le hash avec votre clé privée. Copiez ce chiffre dans l'entrée \"signature\"."
+  },
+  "4-2": {
+    "id": "4-2",
+    "name": "Verify the digital signature of a third-party transaction",
+    "hint-1": "Verify that the signature of the last transaction corresponds to the hash that is associated with it.  If it does, click Accept, otherwise click Reject.",
+    "hint-2": "",
+    "hint-3": "",
+    "name_fr": "Vérifiez la signature numérique d'une transaction tierce",
+    "hint-1_fr": "Vérifiez que la signature de la dernière transaction est conforme avec le Hash qui lui est associé. Si c'est oui, cliquez sur Accepter, sinon cliquez sur Rejeter.",
+    "hint-2_fr": "",
+    "hint-3_fr": ""
+  },
+  "4-3": {
+    "id": "4-3",
+    "name": "Verify the signature of the most recent third-party transactions",
+    "hint-1": "Make sure that the most recent transactions are valid",
+    "hint-2": "For each of the last transactions, verify that the signature corresponds to the hash that is associated with it.  If it does, click Accept, otherwise click Reject.",
+    "hint-3": "",
+    "name_fr": "Vérifiez les signatures numériques des dernières transactions tierces",
+    "hint-1_fr": "Repérez si l'une des dernières opérations n'est pas frauduleuse",
+    "hint-2_fr": "S'assurer que, pour chaque opération, la signature et le Hash sont bien les mêmes. Si c'est le cas, cliquez sur Accepter. Sinon, cliquez sur Rejeter.",
+    "hint-3_fr": ""
+  },
+  "4-4": {
+    "id": "4-4",
+    "name": "Earn 10 octors",
+    "hint-1": "Your colleagues aren't much help. But there is a another way... ",
+    "hint-2": "You have already earned 5 Octors legitimately. Find a flaw in the system that allows you to re-use this transaction to reach 10 Octors.",
+    "hint-3": "You just need to copy the transaction that Mudge made for you exactly, including the signature that he already calculated.",
+    "name_fr": "Gagner 10 octors",
+    "hint-1_fr": "Décidément, vos collègues ne vous aident pas. Mais il y a un toujours un moyen...",
+    "hint-2_fr": "Vous avez déjà gagné que 5 octors. Trouvez une faille dans le système afin de réaliser une vente fictive de 5 octors et atteindre la somme de 10 octors.",
+    "hint-3_fr": "Il suffit de copier la transaction de Mudge vers vous à la lettre, y compris la signature qu'il a déjà calculée."
+  },
+  "5-1": {
+    "id": "5-1",
+    "name": "Create the first block",
+    "hint-1": "Select the transactions, then keep trying different nonces until the hash becomes less than 1000",
+    "hint-2": "Go in the Transactions module. Click on the only transaction in the list. Click on the \"include\" button. Next, go into the Blockchain module. Click on \"mine\". Use the + and - buttons until you find a hash less than 1000. Click on \"create\". ",
+    "hint-3": "",
+    "name_fr": "Créer le premier bloc",
+    "hint-1_fr": "Sélectionnez des transactions, puis créez un bloc avec un hash suffisamment petit.",
+    "hint-2_fr": "Allez dans le module Transactions. Cliquez sur la seule transaction dans la liste. Cliquez sur le bouton \"inclure\". Puis, allez dans le module Blockchain. Cliquez \"miner\". Utilisez les boutons + et - pour trouver un hash inférieur à 1000. Cliquez sur créer.",
+    "hint-3_fr": ""
+  },
+  "5-2": {
+    "id": "5-2",
+    "name": "Create a second block",
+    "hint-1": "Better check the transactions before including them!",
+    "hint-2": "Go in the Transactions module and check each transaction one after the other. If the transaction is valid, click on \"include\". If it is invalid, ignore it or press on \"exclude\". ",
+    "hint-3": "",
+    "name_fr": "Créer un deuxième bloc",
+    "hint-1_fr": "Il vaut mieux valider la transaction avant de l'inclure !",
+    "hint-2_fr": "Dans le module Transactions, passez chaque transaction en revue. Si elle est bonne, appuyez sur \"inclure\". Si elle est fausse, ignorez-la ou appuyez sur \"exclure\".",
+    "hint-3_fr": ""
+  },
+  "5-3": {
+    "id": "5-3",
+    "name": "Each 5 Octors through mining",
+    "hint-1": "You must be fast, yet not include fake transactions that will be rejected. There is a balance to find...",
+    "hint-2": "You are paid 1 Octor per transaction included, and your goal is to earn 5.  The more you try to include extra transactions, the more difficult it will be to validate them in time.  Try just checking 1 or 2 transactions per block.",
+    "hint-3": "There's no need to check the all the information. Simply look if the hash and signature are valid, meaning in green.",
+    "name_fr": "Gagner 5 octors par le minage",
+    "hint-1_fr": "Il faut être rapide, mais ne pas inclure les transactions fausses. Il y a un équilibre à trouver...",
+    "hint-2_fr": "Vous êtes payé 1 octor par transaction incluse, et votre but est d'en gagner 5.  Plus vous essayez d'inclure des transactions, plus c'est difficile de les valider dans les temps. N'hésitez pas à viser 1 ou 2 transactions par bloc.",
+    "hint-3_fr": "Ce n'est pas la peine de vérifier toutes les données. Regardez simplement si le hash est la signature sont valides, c'est à dire en vert."
+  },
+  "5-4": {
+    "id": "5-4",
+    "name": "Should you trust Cyberpol?",
+    "hint-1": "Raven or Mudge might have good advice.",
+    "hint-2": "Ask Cyberpol to confirm their identity. Try to see if their ID card is valid. Also, follow Raven's instructions to send an encrypted message to Cyberpol, in order to see if they can decrypt it correctly.",
+    "hint-3": "Examine the digital signature field. If you decode it with Cyberpol's public key, do you obtain the same hash as what is written on the card? In order to send a secret message to Cyberpol, copy \"What is your first name?\" and encrypt it with their private key.",
+    "name_fr": "Faire confiance à Cyberpol ?",
+    "hint-1_fr": "Raven ou Mudge peuvent être de bon conseil.",
+    "hint-2_fr": "Demandez à Cyberpol de voir leur carte d'identité. Essayez d'établir si elle est correcte ou pas.  Egalement, suivre les instructions de Raven pour envoyer un message chiffré à Cyberpol pour voir s'ils peuvent le déchiffrer correctement.",
+    "hint-3_fr": "Examinez le champ signature numérique. Si on la déchiffre avec la clé publique de Cyberpol, est-ce qu'elle est égale au hash écrit sur la carte ?  Afin d'envoyer un message sécret à à Cyberpol, copiez \"Quel est votre prénom ?\" et le chiffrez avec leur clé public."
+  }
+}

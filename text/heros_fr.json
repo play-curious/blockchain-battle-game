@@ -1,0 +1,82 @@
+{
+  "0-1": {
+    "id": "0-1",
+    "text": "Bonjour Draper - ----Nous avons besoin de vos services.  --Nous sommes en train de développer une nouvelle cryptomonnaie et nous voulons vérifier sa fiabilité.  --Pourriez-vous mettre sa sécurité à l'épreuve ?  --Nous sommes disposés à vous payer grassement.  ---- - Smith",
+    "button": "Accepter"
+  },
+  "0-2": {
+    "id": "0-2",
+    "text": "Parfait, je savais qu'on pouvait compter sur vous.  ----Avant de commencer votre job, je vous demande de regarder la vidéo de présentation de notre cryptomonnaie. ",
+    "button": "Play"
+  },
+  "4-1": {
+    "id": "4-1",
+    "text": "--Quelqu'un a introduit un virus dans Octor. J'ai été obligé de fermer la session.  ----J'ai pu récupérer nos données avant qu'il ne soit trop tard, le virus n'a pas eu le temps de détruire le cœur de notre système. ",
+    "button": "Ok"
+  },
+  "4-2": {
+    "id": "4-2",
+    "text": "Non seulement nous avons pu réinitialiser Octor, mais nous l'avons amélioré.",
+    "button": "Go"
+  },
+  "5-lose-1": {
+    "id": "5-lose-1",
+    "text": "Dommage, Draper. Nous avions misé beaucoup sur vous.  ----Malheureusement, vous n'êtes pas à la hauteur de la tâche que je comptais vous confier.",
+    "button": "Quoi ??"
+  },
+  "5-lose-2": {
+    "id": "5-lose-2",
+    "text": "Tout ceci n'était qu'un jeu-  ----une cyber simulation afin de vérifier que vous aviez bien les compétences et l'attitude requises pour traquer les attaques et les fraudes qui se glissent dans le monde des cryptomonnaies !",
+    "button": "Pardon ?!"
+  },
+  "5-lose-3-yes": {
+    "id": "5-lose-3-yes",
+    "text": "Vous vous êtes assuré que la carte était valide, mais il est très facile pour un pirate de copier une carte officielle.  ----Ce n'est pas suffisant, il faut essayer autre chose.",
+    "button": "Mais..."
+  },
+  "5-lose-3-id": {
+    "id": "5-lose-3-id",
+    "text": "Vous vous êtes trompé. La carte était bien authentique.  ----Cependant, vous n'aviez pas tort dans le fond. Il est facile pour un pirate de copier une carte officielle.  ----Il faut essayer autre chose pour vérifier l'identité de votre interlocuteur.",
+    "button": "Nooon…"
+  },
+  "5-lose-4": {
+    "id": "5-lose-4",
+    "text": "Je pensais vous embaucher comme inspecteur au sein de Cyberpol, la police des réseaux informatiques.  ----Mais je vous ai surestimé.",
+    "button": "Je refais !"
+  },
+  "5-lose-5": {
+    "id": "5-lose-5",
+    "text": "Hélas non, il n'y aura pas de mise à jour d'Octor. Vous avez échoué définitivement. Nous ne pouvons pas vous faire confiance à 100%.  ----Je vous informe qu'en conséquence, votre dossier contient désormais une classification grise : hacker à la moralité variable - à surveiller.",
+    "button": "Injuste !"
+  },
+  "5-lose-6": {
+    "id": "5-lose-6",
+    "text": "C'est la rançon de l'insuccès, Draper.  ----Faites attention pour la suite de vos aventures.",
+    "button": "ಥ﹏ಥ"
+  },
+  "5-win-1": {
+    "id": "5-win-1",
+    "text": "Félicitations Draper !  ----Vous avez trouvé la faille. Seul un véritable représentant de Cyberpol aurait accès à la clé privée. ",
+    "button": "Quoi ??"
+  },
+  "5-win-2": {
+    "id": "5-win-2",
+    "text": "Votre interlocuteur étant un imposteur, il n'a pas pu déchiffrer votre message. Il a répondu à côté.  ----Alors qu'il est très facile pour un pirate de copier une carte officielle. ----Bravo !",
+    "button": "Vraiment ?!"
+  },
+  "5-win-3": {
+    "id": "5-win-3",
+    "text": "--Tout ceci n'était qu'un jeu-  --une cyber simulation afin de vérifier que vous aviez bien les compétences et l'attitude requises pour traquer les attaques et les fraudes qui se glissent dans le monde des cryptomonnaies ! ----Vous avez réussi haut la main les tests d'aptitude d'entrée à Cyberpol, la police internationale de réseaux informatiques.  ----Voulez-vous travailler pour la justice et la légalité, Draper ?",
+    "button": "Avec plaisir"
+  },
+  "5-win-4": {
+    "id": "5-win-4",
+    "text": "Alors bienvenue dans nos rangs. Je ne vous présente pas vos collègues : Mudge, Bluehat, Raven. Vous les connaissez déjà. ----Vous avez fait le bon choix : l'informatique et la légalité. Plutôt que la piraterie et l'escroquerie. ",
+    "button": "Bien sûr !"
+  },
+  "5-win-5": {
+    "id": "5-win-5",
+    "text": "Après tout, comment voulez-vous arnaquer les internautes alors que vous n'arrivez pas à écouler vos LoLcats ?",
+    "button": "¯\\_(ツ)_/¯"
+  }
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Blockchain Battle - Episode 2 - Play Curious</title>
+    <link href="game.css" rel="stylesheet"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <meta name="description" content="Incarnez un hacker expert en cyber-sécurité pour percer les sécrets de la blockchain et de la cryptomonnaie"/>
+
+    <!-- Twitter and FB metadata -->
+    <meta name="twitter:card" content="player"/>
+    <meta name="twitter:site" content="@PlayCuriousGame"/>
+
+    <meta property="og:type" content="game"/>
+    <meta property="og:title" content="Blockchain Battle - Episode 2"/>
+    <meta property="og:description" content="Dive into cybersecurity through the role of a hacker, discovering how blockchain and cryptocurrencies work. Use real concepts such as hash functions and digital signatures to detect fraudulent activity and even hack the system for your own ends."/>
+    <meta property="og:url" content="https://playcurious.games/games/blockchain-battle-1"/>
+    <meta property="og:image" content="https://playcurious.games/games/blockchain-battle-1/images/splash.jpg"/>
+
+    <meta name="twitter:player" content="https://www.youtube.com/embed/NY_Nz77Ks8"/>
+    <meta name="twitter:player:width" content="560"/>
+    <meta name="twitter:player:height" content="315"/>
+
+    <meta property="og:video:url" content="https://www.facebook.com/watch/?v=173405533958754"/>
+    <meta property="og:video:secure_url" content="https://www.facebook.com/watch/?v=173405533958754"/>
+    <meta property="og:video:type" content="video/mp4"/>
+    <meta property="og:video:width" content="560"/>
+    <meta property="og:video:height" content="315"/>
+
+    <!-- Google Analytics -->
+    <script>
+      window.ga = window.ga || function () {
+        (ga.q = ga.q || []).push(arguments);
+      };
+      ga.l = + new Date();
+      ga("create", "UA-115175051-1", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("send", "pageview");
+    </script>
+    <script async="async" src="https://www.google-analytics.com/analytics.js"></script>
+    <!-- End Google Analytics -->
+  </head>
+  <body>
+    <div id="game-parent">
+      <canvas id="pixi-canvas"></canvas>
+    </div>
+
+    <div id="descriptive-content">
+      <h3 class="text-accent">Blockchain Battle - Episode 2</h3>
+      <p>
+        Dive into cybersecurity through the role of a hacker, discovering how blockchain and cryptocurrencies work. Use real concepts such as hash functions and digital signatures to detect fraudulent activity and even hack the system for your own ends.
+      </p>
+      <p></p>
+      <p>
+        If you haven't played Blockchain Battle before,
+        <a href="index.html">start by episode 1</a>.
+      </p>
+
+      <h4 class="text-accent">Technical issues?</h4>
+      <p>
+        If the game isn't working correctly (no videos, no sound, etc.) please check that you are using a recent version of a compatible web browser (Firefox, Chrome or Safari).
+      </p>
+      <p>
+        If you're still having issues, please write us at
+        <i>hello</i>
+        AT
+        <i>playcurious</i>
+        DOT
+        <i>games</i>.
+      </p>
+
+      <p>A
+        <a href="https://playcurious.games/">Play Curious</a>
+        game
+      </p>
+
+      <p class="build-info">
+        Built on
+        <%= date.toUTCString() %>, version
+        <%= commit %>
+        <%= branch %>
+      </p>
+
+      <div id="sharing">
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Je%20kiffe%20Blockchain%20Battle%20de%20%40PlayCuriousGame" data-size="large" via="@PlayCuriousGame">
+          Tweet
+        </a>
+
+        <div class="fb-share-button" data-href="https://playcurious.games/games/blockchain-battle-1" data-layout="button" data-size="large" data-mobile-iframe="true">
+          <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplaycurious.games%2Fgames%blockchain-battle-1&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a >
+        </div>
+      </div>
+    </div>
+
+    <!-- build:js deps.js -->
+    <script src="node_modules/underscore/underscore.js"></script>
+    <script src="node_modules/pixi.js-legacy/dist/pixi-legacy.js"></script>
+    <script src="node_modules/pixi-filters/dist/pixi-filters.js"></script>
+    <script src="node_modules/pixi-multistyle-text/dist/pixi-multistyle-text.umd.js"></script>
+    <script src="node_modules/howler/dist/howler.js"></script>
+    <script src="node_modules/fontfaceobserver/fontfaceobserver.js"></script>
+    <script src="node_modules/jsbi/dist/jsbi-umd.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js-bundle -->
+    <script type="module" src="src/episode2.js"></script>
+    <!-- endbuild -->
+
+    <!-- Twitter -->
+    <script>
+      window.twttr = (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) 
+          return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs
+          .parentNode
+          .insertBefore(js, fjs);
+
+        t._e = [];
+        t.ready = function (f) {
+          t
+            ._e
+            .push(f);
+        };
+
+        return t;
+      })(document, "script", "twitter-wjs");
+    </script>
+
+    <div id="fb-root"></div>
+    <script>
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) 
+          return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_EN/sdk.js#xfbml=1&version=v3.2";
+        fjs
+          .parentNode
+          .insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+  </body>
+</html>

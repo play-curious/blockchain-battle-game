@@ -1,0 +1,554 @@
+{
+  "0-3": {
+    "id": "0-3",
+    "chat": "Smith",
+    "text": "--Sounds like a dream come true, right? --In all honesty, Octor is still in the development phase, and missing a few features. --We need to find any remaining flaws before we put it out to the masses. --To do that, we recruited you and 3 other hackers: Mudge, Raven and Bluehat.  --Do you see them in the Network module?",
+    "text_fr": "Ça fait rêver, non?...  --Pour être honnête, Octor est encore en phase de développement, il manque encore quelques fonctionnalités.  --C'est l'occasion de repérer les éventuelles failles de notre système avant de le proposer au plus grand nombre.  --On vous a recruté, vous ainsi que 3 autres hackers, pour tester Octor. --Je vous présente Mudge, Raven et Bluehat.  --Vous les voyez dans le module Réseau ?"
+  },
+  "0-4": {
+    "id": "0-4",
+    "chat": "Smith",
+    "text": "--[Hi everyone]",
+    "text_fr": "--[Bonjour à tous]"
+  },
+  "0-5": {
+    "id": "0-5",
+    "chat": "Smith",
+    "text": "Now that the introductions are out of the way, it's time to dig in -- I gave you each 10 octors to start. -- You can check in the Ledger module.",
+    "text_fr": "Maintenant que les présentations sont faites, il est temps de commencer.  --Je vous donne à chacun une somme initiale de 10 octors. --C'est visible dans le module Registre."
+  },
+  "0-6": {
+    "id": "0-6",
+    "chat": "Smith",
+    "text": "--[It's all there] --Notice that you see what everyone's balance is. --With Octor, it's not the bank that watches over your account, but the entire community. --[Got it!]",
+    "text_fr": "--[Le compte est bon] Le compte est bon --Remarquez que vous pouvez voir ce que chacun a sur son compte.  --Avec Octor, ce n'est pas la banque qui supervise votre compte mais la communauté toute entière. --[Bien compris]"
+  },
+  "1-0-0": {
+    "id": "1-0-0",
+    "chat": "Smith",
+    "text": "--Enough talk, it's time for action! --Your first task is simple, you need to buy something from one of your colleagues for 1 Octor.",
+    "text_fr": "Assez parlé, passons à l'action!  --Votre première tâche est simple, vous allez acheter quelque chose à l'un de vos collègues pour 1 octor."
+  },
+  "1-0-1-mudge": {
+    "id": "1-0-1-mudge",
+    "chat": "Mudge",
+    "text": "--[Hi Mudge...] Hi Mudge, are you selling anything? --Are you joking? I don't have any time for that, I have too much work.",
+    "text_fr": "--[Salut Mudge...] Salut Mudge, tu as quelque chose à vendre?  --Tu rigoles, j'ai pas de temps à perdre avec ça, j'ai trop de travail."
+  },
+  "1-0-1-raven": {
+    "id": "1-0-1-raven",
+    "chat": "Raven",
+    "text": "--[Hi Raven...] Hi Raven, anything to sell? --That depends... how much are you ready to cough up? --[1 Octor] --1 Octor?! Are you kidding?! Go back to your sandbox, kid",
+    "text_fr": "--[Salut Raven...] Salut Raven, tu as quelque chose à vendre?  --Ça dépend combien t'es prêt à claquer... --[1 octor] 1 octor. --1 octor?! C'est tout?! Retourne jouer avec ta pelle et ton sceau !"
+  },
+  "1-0-1-bluehat": {
+    "id": "1-0-1-bluehat",
+    "chat": "Bluehat",
+    "text": "--[Hi Bluehat...] Hi Bluehat, are you selling anything? --Yes, actually. I may have a PhD and 10 years of research experience in cryptography, but I still love telling dumb jokes. --[Would you sell me one for 1 octor?] --Do you know the difference between Windows and a virus? --[No] --Then send me 1 octor! --[Transaction on it's way!]",
+    "text_fr": "--[Salut Bluehat...] Salut Bluehat, tu as quelque chose à vendre ?  --Un peu, j'ai beau avoir bac+5 et 10 ans de recherches en cryptographie, j'adore inventer des blagues nulles. Tu en veux une ? --[C'est le jeu...] C'est le jeu apparemment. Tu peux m'en vendre une pour 1 octor ? --Tu connais la différence entre Windows et un virus ? --[Non] --Alors file-moi 1 octor ! --[Transaction en route !]"
+  },
+  "1-1-2": {
+    "id": "1-1-2",
+    "chat": "Bluehat",
+    "text": "--Good. Do you want your joke, Draper? --[Of course] --What's the difference between Windows and a virus? --The virus works!",
+    "text_fr": "--C'est tout bon. Tu veux ta blague, Draper ?  --[Oui] Oui --Quelle est la différence entre Windows et un virus ? --Le virus il fonctionne !"
+  },
+  "1-1-3": {
+    "id": "1-1-3",
+    "chat": "Smith",
+    "text": "--[It's done] --Bravo Draper! You created the first transaction in Octor and communicated it to the community. --If we want to move beyond having a bank centralize our transactions, we need to communicate them to all the other users for approval. --[Understood]",
+    "text_fr": "--[C'est fait]  --Bravo Draper ! Vous avez créé une transaction et vous l'avez communiquée à l'ensemble de la communauté.  --Si on veut se passer d'une banque qui centralise les transactions, il faut communiquer aux autres utilisateurs les échanges conclus afin que ceux-ci les valident. --[Entendu]"
+  },
+  "1-2-1": {
+    "id": "1-2-1",
+    "chat": "Smith",
+    "text": "--This time, I would like you to verify a transaction between 2 other users. --Go ahead, Draper.",
+    "text_fr": "--Cette fois, je voudrais que vous vérifiez une transaction entre 2 autres utilisateurs.  --Draper, à vous de jouer."
+  },
+  "1-2-2-error": {
+    "id": "1-2-2-error",
+    "chat": "Smith",
+    "text": "--You made a mistake. The transaction between Mudge and Raven was correct. --Luckily, your colleagues approved it. --It's the advantage of having a decentralized system. More that the majority of users need to approve the same transaction.",
+    "text_fr": "--Vous vous êtes trompé Draper. La transaction entre Mudge et Raven était correcte.  --Heureusement, vos collègues l'ont validée.  --C'est l'avantage de la décentralisation du système. Plus de la majorité des utilisateurs doivent valider la même réponse."
+  },
+  "1-2-2-success": {
+    "id": "1-2-2-success",
+    "chat": "Smith",
+    "text": "--Excellent. --Notice that because our system is decentralized, your choice alone is not enough. At least 2 of your colleagues need to also approve the transaction.",
+    "text_fr": "--Excellent. --Remarquez que notre système est décentralisé, votre seul voix ne suffit pas, il faut au moins l'accord de 2 autres de vos collègues pour valider la transaction."
+  },
+  "1-3-1": {
+    "id": "1-3-1",
+    "chat": "Smith",
+    "text": "--Can you examine this new transaction? --If it seems correct, approve it, otherwise, refuse it. --I'm counting on you. --[No problem]",
+    "text_fr": "--Pouvez-vous encore examiner cette nouvelle transaction ?  --Si elle vous semble juste, acceptez-la, sinon, refusez-la.  --Je compte sur vous. --[Pas de souci]"
+  },
+  "1-3-2-error": {
+    "id": "1-3-2-error",
+    "chat": "Smith",
+    "text": "--Are you paying attention, Draper? You should have refused this fraudulent transaction outright. --It didn't make any sense. It's impossible for a buyer to spend more Octors that he or she has. --Luckily, 2 of your colleagues didn't fall for the same trick.  --With our decentralized system, 2 users are not enough to approve a transaction. We need more than 50% - 3 users in this case.",
+    "text_fr": "--Pas de chance, Draper. Il fallait refuser cette transaction frauduleuse.  --Cette opération n'avait pas de sens- impossible pour l'acheteur de dépenser plus d'octor qu'il n'en possède.  --Heureusement, 2 de vos collègues s'en sont rendu compte.  --Avec notre système décentralisé, 2 voix ne suffisent pas à valider une opération. Il faut plus de 50% : 3 voix ici."
+  },
+  "1-3-2-success": {
+    "id": "1-3-2-success",
+    "chat": "Smith",
+    "text": "--Well done! --That transaction didn't make any sense. It's impossible for a buyer to spend more Octors that he or she has. --Only the cheater accepted it, and that's not enough. --With our decentralized system, we need more than 50% - 3 users in this case.",
+    "text_fr": "--Bien vu. Cette opération n'avait pas de sens, impossible de prendre plus d'argent que l'acheteur possède. Il fallait refuser. --Seul le fraudeur l'a acceptée, ça ne suffit pas. Dans notre système décentralisé, il faut plus de 2 voix pour obtenir la majorité absolue!"
+  },
+  "1-4": {
+    "id": "1-4",
+    "chat": "Smith",
+    "text": "--Perfect! Our cryptocurrency seems to work as planned. --Now things are going to get interesting... --You will learn how a pirate can falsify a transaction. --[Cool] --Ready? --[Ready] ",
+    "text_fr": "Parfait ! Notre cryptomonnaie semble marcher comme prévu. \r --On va complexifier le système.\r --Vous allez ainsi apprendre comment un pirate peut falsifier une transaction. \r --[Cool.]\r --Prêt ? \r --[Prêt]"
+  },
+  "2-1-1": {
+    "id": "2-1-1",
+    "chat": "Smith",
+    "text": "--Did you understand, Draper?  --[I got the gist] --It's elementary for an ace like yourself  --And if ever you want to watch the videos again, you can find them in the Inventory module.  --Now, I'd like you to spend 3 Octors and calculate the hash that corresponds to your transaction. --[Let's go]",
+    "text_fr": "--Vous avez compris Draper ?  --[J'ai pigé] --C'est élémentaire pour un crack comme vous.  --Et si jamais vous voulez revoir des vidéos, elles se trouvent dans le module Inventaire. --Je vous demande maintenant de dépenser 3 octors et de calculer le hash correspondant à votre transaction. --[On y va]"
+  },
+  "2-1-2-mudge": {
+    "id": "2-1-2-mudge",
+    "chat": "Mudge",
+    "text": "--[Hey Mudge...] Hey Mudge, are you finally ready to sell something? --No, I'm not here to pilfer my colleagues. --[It's for a good cause] --How's that? --[We need to test the hashing function] --Oh really? In that case, I might have something for you. Do you know who Alan Turing is? --[No, should I?] --He's the English mathematician who cracked the German military's secret codes during WWII.  --I have a pixel-portrait of him. --[I'll buy it for 3 Octors] --Ok, since it's for a good cause.",
+    "text_fr": "--[Salut Mudge...] Salut Mudge, aurais-tu enfin quelque chose à vendre ?  --Non, je suis pas là pour dépouiller les collègues! --[C'est pour la bonne cause] --Comment ça ? --[C'est pour tester la fonction de hachage] --Ah bon… J'ai peut-être quelque chose pour toi. Tu connais Alan Turing ? --[Non] --C'est le mathématicien anglais qui a déchiffré les messages cryptés de l'armé allemande pendant la 2ème guerre mondiale.  --J'ai fait un portrait-pixel de lui. --[Je te l'achète 3 octors] --D'accord, puisque c'est pour la bonne cause."
+  },
+  "2-1-2-raven": {
+    "id": "2-1-2-raven",
+    "chat": "Raven",
+    "text": "--[Hi Raven...] Hi Raven, do you still have things to sell?  --Perhaps, my dear friend, perhaps... But only if you're ready to drop them Octors! --[How about 3 Octors?] --Don't mock me, Draper, I don't beg for scraps. Come back another day",
+    "text_fr": "--[Salut Raven...] Salut Raven, tu as toujours quelque chose à vendre ?  --Un peu mon neveu. Mais faut que tu lâches ton stock d'octors! --[3 octors?] 3 octors ?  --T'es un petit joueur, Draper, je travaille pas pour si peu. Reviens un autre jour."
+  },
+  "2-1-2-bluehat": {
+    "id": "2-1-2-bluehat",
+    "chat": "Bluehat",
+    "text": "--[Hey BlueHat, anything more to sell?] --Sorry, all out of jokes. Good luck, Draper",
+    "text_fr": "--[Salut Bluehat, tu as encore quelque chose à vendre?]  --Désolé, pas cette fois, bonne chance, Draper."
+  },
+  "2-1-3": {
+    "id": "2-1-3",
+    "chat": "Mudge",
+    "text": "--Thanks! You'll find it in your inventory",
+    "text_fr": "--Merci ! Tu la trouveras dans ton inventaire"
+  },
+  "2-2-1": {
+    "id": "2-2-1",
+    "chat": "Smith",
+    "text": "--Congratulations Draper, you have shown that the hash works as promised. --May I ask you to now sell something of your own for 5 Octors? --[What about a cat photo?] --Fine. Good luck with your colleagues",
+    "text_fr": "--Félicitations Draper, vous avez démontré que le hachage de données fonctionne correctement.  --Je vous propose de vendre à votre tour pour 5 octors.  --[D'accord] D'accord --Bonne chance avec vos camarades."
+  },
+  "2-2-2-mudge": {
+    "id": "2-2-2-mudge",
+    "chat": "Mudge",
+    "text": "--[Hi Mudge...] Hi Mudge, I have a photo of my cat doing LoL in front of a mirror. What do you say? --You're very stubborn, Draper. I don't care about your cat or your money! --I'm here to improve Octor! Creating a financial system that is decentralized and democratic, that's a true calling",
+    "text_fr": "--[Salut Mudge...] Salut Mudge. J'ai une photo de mon chat en train de faire LoL devant le miroir, ça te dit? --T'es vraiment têtu, Draper. Je me fiche de ton chat ou de ton argent!  --Je suis là pour améliorer Octor! Un système bancaire décentralisé et démocratique, c'est un super projet…"
+  },
+  "2-2-2-bluehat": {
+    "id": "2-2-2-bluehat",
+    "chat": "Bluehat",
+    "text": "--[Hi BlueHat...] Hi BlueHat, I have a photo of my cat doing LoL in front of a mirror. Interested? --You're cute but you're naive, Draper. You won't make any money from me. --And beware of the 2 others. One of them has had a serious run-in with the law, I'm sure of it.",
+    "text_fr": "--[Salut Bluehat...] Salut Bluehat. J'ai une photo de mon chat en train de faire LoL devant le miroir, ça te dit? --T'es mignon mais t'es naïf, tu gagneras pas d'argent avec moi, Draper.  --Méfie-toi quand même des 2 autres. L'un d'entre eux est fâché avec la loi, j'en suis sûre."
+  },
+  "2-2-2-raven": {
+    "id": "2-2-2-raven",
+    "chat": "Raven",
+    "text": "--[Hi Raven...] Hi Raven, I have a photo of my cat doing LoL in front of a mirror. You've got to have it! --You're such a joke, Draper. I'm not here to buy, I'm here to win... the jackpot... --But I have another solution for you, assuming you send over 15 Octors. --[But I don't even have 15 Octors!] --I know! Ha ha ha!!!",
+    "text_fr": "--[Salut Raven...] Salut Raven. J'ai une photo de mon chat en train de faire LoL devant le miroir, ça te dit? --T'es un comique, Draper. Je suis pas ici pour acheter, je suis ici pour gagner... le gros lot…  --Mais j'ai une autre solution pour toi, à condition que tu me files 15 octors. --[15 octors, j'en ai pas !] --Je sais bien ! Ha ha ha !!!"
+  },
+  "2-2-3-bluehat": {
+    "id": "2-2-3-bluehat",
+    "chat": "Bluehat",
+    "text": "--Draper! You stole my Octors!!! Are you crazy?!! --[Uhhh sorry]",
+    "text_fr": "--Hé!! Draper!! Tu m'as piqué mes octors!!! T'es fou!!! --[dsl.] dsl."
+  },
+  "2-2-3-mudge": {
+    "id": "2-2-3-mudge",
+    "chat": "Mudge",
+    "text": "--Draper! You stole my Octors!!! Are you crazy?!! --[Uhhh sorry]",
+    "text_fr": "--Hé!! Draper!! Tu m'as piqué mes octors!!! T'es fou!!! --[dsl.] dsl."
+  },
+  "2-2-3-raven": {
+    "id": "2-2-3-raven",
+    "chat": "Raven",
+    "text": "--Draper! You stole my Octors!!! Are you crazy?!! --[Uhhh sorry]",
+    "text_fr": "--Hé!! Draper!! Tu m'as piqué mes octors!!! T'es fou!!! --[dsl.] dsl."
+  },
+  "2-2-4": {
+    "id": "2-2-4",
+    "chat": "Bluehat",
+    "text": "--Well well, Draper. Are you smarter than you look, or did you got help? From Raven, am I right? --[Why?] Why him and not Mudge? --Because he already got caught! He's the one who pirated the files from Wahoo and Pay Paf just months ago. --[What?!] What?! But... how do you know all that?! Are you working for them?  --I think you can figure that out for yourself...",
+    "text_fr": "--Sacré Draper, t'es plus doué que tu en as l'air ou tu t'es fait aider? Par Raven, n'est-ce pas? --[Pourquoi ?] Et pourquoi lui et pas Mudge? --Parce qu'il s'est déjà fait choper! Pour avoir piraté les fichiers clients Wahoo et ceux de Pay Paf!! --[Quoi ?] Quoi?!... Mais… Comment tu sais tout ça?! Tu as travaillé pour eux? --À ton avis…"
+  },
+  "2-2-5": {
+    "id": "2-2-5",
+    "chat": "Smith",
+    "text": "--Well done, Draper, and well done to all of you. --Thanks to your work, we have detected a critical flaw in Octor 2.0, and we will need to improve our protocol immediately. --From now on, you will be able to send encrypted messages --[OK] --That way, you can conduct private conversations with your colleagues --[For real?! I'm ready!]",
+    "text_fr": "Bravo Draper et bravo aux autres ! \r --Grâce à vos efforts conjoints, nous avons détecté une faille critique dans Octor 2.0, nous allons améliorer notre protocole.\r --Désormais, vous pourrez vous envoyer des messages chiffrés.\r --[D'accord.]\r --Vous pourrez ainsi conduite des conversations privées avec l'un ou l'autre de vos collègues.\r --[Sérieux ?!... Je suis prêt.]"
+  },
+  "3-1-1": {
+    "id": "3-1-1",
+    "chat": "Bluehat",
+    "text": "287266062292189011292116026062083292041189114224115292011189114292116026062292083240011196240291292186240169266282062114196266181292282196114116147292083189266062147",
+    "text_fr": "163266292282062292266189169115292124189115115062292203189169114292186240292083240011196240291292196186292124186240266021026196116292282062292186117240114181062266116292115240186062"
+  },
+  "3-1-2": {
+    "id": "3-1-2",
+    "chat": "Bluehat",
+    "text": "--Did you get my message, Draper? --[Yes, but it's gibberish] --Use your private key to decrypt it. The key is the Network module.",
+    "text_fr": "--Tu as bien reçu mon message, Draper ? --[Oui...] Oui, je ne comprends rien. --Utilise ta clé privée pour le dechiffrer. Elle se trouve dans le module réseau."
+  },
+  "3-1-2-decrypted": {
+    "id": "3-1-2-decrypted",
+    "chat": "",
+    "text": "One of them works for the mafia, laundering dirty money",
+    "text_fr": "Un de nous bosse pour la mafia, il blanchit de l'argent sale"
+  },
+  "3-2-1": {
+    "id": "3-2-1",
+    "chat": "Bluehat",
+    "text": "--So? Did you read it? Can I count on you? --[Who are you thinking of?] --Shh! Encrypt your answer !! --Use my public key to encrypt your last message.",
+    "text_fr": "--Alors? Tu l'as lu ? Je peux compter sur toi ?  --[Tu penses à qui ?] Tu penses à qui ? --Chut ! Crypte ta réponse !!  --Utilise ma clé publique pour chiffrer ton dernier message."
+  },
+  "3-2-1-decrypted": {
+    "id": "3-2-1-decrypted",
+    "chat": "",
+    "text": "Who are you thinking of?",
+    "text_fr": "Tu penses à qui ?"
+  },
+  "3-2-2-success": {
+    "id": "3-2-2-success",
+    "chat": "Bluehat",
+    "text": "--[120091089054015082095054088089039054129091118132035118132038054089020046] --Roger that.",
+    "text_fr": "--[028039054073095132124095124054126054042039118054046] 028039054073095132124095124054126054042039118054046 --Bien reçu."
+  },
+  "3-2-2-error": {
+    "id": "3-2-2-error",
+    "chat": "Bluehat",
+    "text": "--Did you just write me in Japanese, or you did you not use the right key?",
+    "text_fr": "--Tu m'écris en japonais ou tu n'as pas utilisé la bonne clé ?"
+  },
+  "3-2-3": {
+    "id": "3-2-3",
+    "chat": "Bluehat",
+    "text": "--173240027062266241292287114292083240147124062292259169282181062045292026062292115062062083115292189026292115189292282196115021114062116062 --[What's that?] --Why don't you decrypt that last message, smartypants?",
+    "text_fr": "--173240027062266292241292287169292259169282181062045292196186292115062292186240292145189169062292116114189203292021240186083062292062116292282196115021114062116 --[Que dis-tu ?] --Tu n'as qu'à déchiffrer ce nouveau message pour le lire, petit malin."
+  },
+  "3-2-3-decypted": {
+    "id": "3-2-3-decypted",
+    "chat": "",
+    "text": "Raven! Or maybe Mudge- he seems oh so discrete",
+    "text_fr": "Raven ! Ou Mudge- il se la joue trop calme et discret"
+  },
+  "3-3-1": {
+    "id": "3-3-1",
+    "chat": "Mudge",
+    "text": "--!!! URGENT !!! --{images/virus.jpg} --[???] ???",
+    "text_fr": "--!!! URGENT !!! --{images/virus.jpg} --[???] ???"
+  },
+  "3-3-2": {
+    "id": "3-3-2",
+    "chat": "Mudge",
+    "text": "--Attention please !!! My identity has been hijacked !!! Do not open my last message  --[Too late]",
+    "text_fr": "--Attention à tous !!! On a piraté mon identité !!! Ne pas ouvrir mon précédent message --[Trop tard] Trop tard"
+  },
+  "3-4": {
+    "id": "3-4",
+    "chat": "",
+    "text": "To be continued... in episode 2 of Blockchain Battle",
+    "text_fr": "A suivre... dans l'épisode 2 de Blockchain Battle"
+  },
+  "4-0": {
+    "id": "4-0",
+    "chat": "Smith",
+    "text": "--Starting in Octor 4.0, transactions are authenticated with a digital signature. --I reset your accounts- you now have 15 Octors each. --[That's all?] --No, this time I'm putting you to the test. --I want you to push the digital signature protocol to its limits, and find any security holes a pirate could use for fraud. --[You're on!]",
+    "text_fr": "Avec Octor 4.0, les transactions sont désormais authentifiées par une signature numérique. \r --J'ai remis à jour vos comptes. \r --Vous avez tous 15 octors et pouvez recommencer à travailler.\r --[C'est tout ?]\r --Non, cette fois, je vous demande de pousser le protocole de signature numérique dans ses limites. \r --Je vous mets au défi de trouver des failles qui permettrait à un pirate de frauder.\r --[Paris tenu.]"
+  },
+  "4-1": {
+    "id": "4-1",
+    "chat": "Smith",
+    "text": "--Now please buy an item from one of your colleagues, for 1 Octor- that's enough - and then test the digital signature tool. OK? --[I'm on it]",
+    "text_fr": "--Essayez d'acheter un article à l'un de vos camarade, pour 1 octor, ça suffira, et testez ensuite la signature numérique. D'accord ? --[C'est comme si c'était fait]"
+  },
+  "4-1-2-raven": {
+    "id": "4-1-2-raven",
+    "chat": "Raven",
+    "text": "--[Hello Raven, anything to sell?] --Well well, that depends on how much you're willing lay down. --[1 Octor] --Go back to recess and your playmoviles!",
+    "text_fr": "--[Hello Raven, tu as quelque chose à vendre ?] --Tout dépend de combien tu es prêt à cracher. --[1 octor] --Retourne donc dans la cour de récré, jouer avec tes playmouviles !"
+  },
+  "4-1-2-mudge": {
+    "id": "4-1-2-mudge",
+    "chat": "Mudge",
+    "text": "--[Hello Mudge, anything to sell?] --Leave me alone, I have too much work!",
+    "text_fr": "--[Salut Mudge, tu as quelque chose à vendre ?] --Laisse-moi tranquille, j'ai trop de travail !"
+  },
+  "4-1-2-bluehat": {
+    "id": "4-1-2-bluehat",
+    "chat": "Bluehat",
+    "text": "--[Hello BlueHat, anything to sell, for 1 Octor?] --You're broke, aren't you?  --Well, I could sell you another joke for geeks... --[Fine with me] --Ok, I'll await your payment",
+    "text_fr": "--[Bonjour Bluehat, tu as quelque chose à vendre, pour 1 octor ?] --T'es vraiment fauché, Draper. Je te propose une blague de geeks. --[Ça me va]"
+  },
+  "4-1-3": {
+    "id": "4-1-3",
+    "chat": "Bluehat",
+    "text": "--Great. Here's my joke: --2 programmers meet up on January 1st: --One asks the other, \"What resolution did you take for this year?\" --The other answers, \"1920 x 1080, and you?\" --Ha ha ha! Isn't that hilarious? --[Uhh... yeah!]",
+    "text_fr": "--Très bien. Voilà ma blague : --Deux informaticiens se retrouvent après la fête du 1er janvier :  -- - Qu’est-ce que tu as pris comme résolution cette année?  -- - 1920 x 1080, et toi?  --C'est drôle, non ? --[Heu... C'est top !]"
+  },
+  "4-2-1": {
+    "id": "4-2-1",
+    "chat": "Smith",
+    "text": "--Good! Now, let's test if your can verify transactions. --Byt the way, the system can now automatically check the hash validity. --Mudge already sent a transaction to BlueHat. --Would you check if the signature is correct? --[Right on]",
+    "text_fr": "--Très bien ! Maintenant, nous allons tester la vérification des transactions. --Mudge a déjà réalisé une transaction avec Bluehat.  --Voulez-vous vérifiez que la signature de l'échange est correcte ?  --[C'est parti]"
+  },
+  "4-2-2": {
+    "id": "4-2-2",
+    "chat": "Bluehat",
+    "text": "--[Which key do I use this time?] --His public key!",
+    "text_fr": "--[J'utilise quelle clé cette fois ?] --Sa clé publique !"
+  },
+  "4-2-3-error": {
+    "id": "4-2-3-error",
+    "chat": "Smith",
+    "text": "--Slow down, Draper, you shouldn't have refused that transaction. --Luckily, your 3 other colleagues accepted it, so it was confirmed anyway. ",
+    "text_fr": "--Attention, Draper, il ne fallait pas refuser cette transaction.  --Heureusement, vos 3 autres collègues l'ont accepter, elle a donc été validée."
+  },
+  "4-2-3-error-mudge": {
+    "id": "4-2-3-error-mudge",
+    "chat": "Mudge",
+    "text": "--What? Why did you reject it? --Mr Smith insisted again that I buy something from my colleagues. --As if I had nothing better to do with my time! ",
+    "text_fr": "--Quoi ? Pourquoi tu l'as rejeté ?  --Mr Smith a insisté pour que j'accepte d'acheter encore un truc à mes collègues. --Comme si je n'avais que ça à faire."
+  },
+  "4-2-3-success": {
+    "id": "4-2-3-success",
+    "chat": "Smith",
+    "text": "--Nice work, Draper. It's no time to rest on your laurels!",
+    "text_fr": "--Très bon travail, Draper. Ne vous reposez pas sur vos lauriers !"
+  },
+  "4-3-1": {
+    "id": "4-3-1",
+    "chat": "Smith",
+    "text": "--Two more transactions have been signed, check them too --[Gotcha]",
+    "text_fr": "--Deux autres transactions ont été signées, vérifiez-les également. --[Je m'y mets]"
+  },
+  "4-3-2": {
+    "id": "4-3-2",
+    "chat": "Bluehat",
+    "text": "--A piece of advice- one of them seems fishy to me. --[Merci]",
+    "text_fr": "--Un conseil, l'une d'entre elles me semble douteuse. --[Merci]"
+  },
+  "4-3-3": {
+    "id": "4-3-3",
+    "chat": "Raven",
+    "text": "--[I'm impressed, you managed to sell something to BlueHat!] --Yes!! A pirated video of Game of Clones. For 5 Octors.  --I have the whole series, if you'd like. --[No thanks",
+    "text_fr": "--[Bravo ! Tu es parvenu à vendre quelque chose à Bluehat !]  --Oui !! Une vidéo pirate de Trône de Verre. Pour 5 Octors. J'ai toute la série, si tu veux. --[Non merci.]"
+  },
+  "4-3-4": {
+    "id": "4-3-4",
+    "chat": "Mudge",
+    "text": "--[Tell me, Mudge, would you have bought 9 winning lottery numbers from Raven, by any chance? --No! I have better things to do than waste my money betting on improbable events! --[That may be, but Raven almost stole 9 Octors from you!] --Great Scott! ",
+    "text_fr": "--[Dis, Mudge...] Dis, Mudge, tu aurais acheté 9 numéros gagnants au Loto à Raven? --Non ! J'ai autre chose à faire que gaspiller mon argent dans des opérations hasardeuses ! --[Pourtant, tu as failli te faire voler 9 octors par Raven !] --Nom de Zeus !"
+  },
+  "4-3-5": {
+    "id": "4-3-5",
+    "chat": "Raven",
+    "text": "--Hey! Are you done trying to ruin my reputation? Soon, no one will want to work with me! --[Isn't that the name of game? Don't get caught] --I hope it happens to you, dirty rat!",
+    "text_fr": "--Hé, Draper ! T'as fini de salir ma réputation ? Après, plus personne ne voudra travailler avec moi ! --[C'est la règle du jeu : il ne faut pas se faire prendre…] --Je souhaite que ça t'arrive, sale mouchard !"
+  },
+  "4-3-6-success": {
+    "id": "4-3-6-success",
+    "chat": "Smith",
+    "text": "--Excellent, Draper! This digital signature system makes life impossible for thieves.",
+    "text_fr": "--Bravo Draper, impossible désormais pour un voleur de tromper notre vigilance avec de fausses signatures."
+  },
+  "4-3-6-error": {
+    "id": "4-3-6-error",
+    "chat": "Smith",
+    "text": "--Hello? Anyone home? --You misclassified the transactions --[I'll look more closely next time!] --Hmm... moving on...",
+    "text_fr": "--Mais non... vous avez mal classifié les transactions.  --[Je regarderais de plus près la prochaine fois] --Bon, passons à autre chose..."
+  },
+  "4-4-1": {
+    "id": "4-4-1",
+    "chat": "Smith",
+    "text": "--Draper, try to sell your creations to your colleagues for 10 Octors this time. --[Again? But they never want them!] --Good luck",
+    "text_fr": "--Draper, essayez donc de vendre vos créations à vos camarades pour 10 octors.  --[Encore ? Ils en veulent jamais !] --Bonne chance."
+  },
+  "4-4-2-mudge": {
+    "id": "4-4-2-mudge",
+    "chat": "Mudge",
+    "text": "--[Hi Mudge, my dear friend. Would you be interested in my game mod \"The Legend of Lolcat: Breath of the Wild\"?] --That's the last thing I need! No, there's only Mr Smith who manages to make me buy useless junk. --[Pretty please... It's Mr Smith who is forcing me to sell.] --Ah... Well if it's Mr Smith... --[Thanks, I owe you!] --Only 5 Octors, though. 10 is way over the top. --[OK. 5 is better than 0] --I'll send them over...",
+    "text_fr": "--[Bonjour Mudge...] Bonjour, Mudge, ça t'intéresse mon jeu moddé : The Legend of Lolcat: Breath of the Wild ? --Non ! Je n'ai besoin de rien ! Il n'y a que Mr Smith qui est parvenu à me faire acheter ce truc sans intérêt à Bluehat.  --[S'il-te-plaît...] S'il-te-plaît… C'est Mr Smith qui m'oblige à vendre. --Ah… Si c'est Mr Smith… --[Merci] Merci, je te revaudrai ça.  --5 octors par contre. 10, c'est trop cher. --[OK. Va pour 5 octors.] --J'envoie les octors"
+  },
+  "4-4-2-raven": {
+    "id": "4-4-2-raven",
+    "chat": "Raven",
+    "text": "--[Hi Raven, you've cat to purrchase my game - \"The Legend of Lolcat: Breath of the Wild!\"] --You dare to ask me a favor? After ratting me out to the others? --Get lost, you spying snitchy suck-up! ",
+    "text_fr": "--[Bonjour, Raven...] Bonjour, Raven, tu vas miauler pour mon jeu : The Legend of Lolcat: Breath of the Wild ! --Tu oses encore me demander quelque chose ? Alors que tu m'as balancé aux autres !  --Va voir ailleurs, espion, balance, lèche-bottes ! "
+  },
+  "4-4-2-bluehat": {
+    "id": "4-4-2-bluehat",
+    "chat": "Bluehat",
+    "text": "--[Hi Bluehat! You adore cats, don't you? You're going to fall in love with my game - \"The Legend of Lolcat: Breath of the Wild\". Best of all, it only costs 10 Octors!] --I don't believe you're a crook, a pirate. You're already so clumsy when you try to sell us on something. --You haven't thought of a better way to make 10 Octors? --[How's that?] --Something simpler, which calls on your logic and not your eloquence... which you seem to lack...",
+    "text_fr": "--[Bonjour, Bluehat...] Bonjour, Bluehat, tu adores les chats, non? Tu vas adorer mon jeu : The Legend of Lolcat: Breath of the Wild. Il coûte juste 10 octors. --Je ne pense pas que tu sois un escroc, un pirate. Tu es déjà si maladroit quand tu cherches à nous convaincre de t'acheter quelque chose.  --Tu n'as pas pensé à trouver un autre moyen de gagner 10 octors ? --[Comment donc ?] Comment donc ? -- Un truc plus simple, qui fait appel à la logique et non à ton éloquence… qui te fait défaut…"
+  },
+  "4-4-3": {
+    "id": "4-4-3",
+    "chat": "Smith",
+    "text": "--Draper! I asked you to sell something in exchange for 10 Octors, not to steal them from your colleagues. --You only sold one game to Mudge, not two, he confirmed it. --You're too clever for your own good. Anyway, you have unveiled a major flaw in our system. --[You should be thanking me!] --I'll do even better. You can now create complete blocks and perform mining. --[If you say so] --Through mining, you can create new value, new riches. --[Allright, let's take it for a spin!]",
+    "text_fr": "Draper, je vous ai demandé de vendre quelque chose en échange de 10 octors, pas de les prendre à vos camarades. \r --Vous n'avez vendu qu'une vidéo à Mudge, pas deux, il me l'a confirmé. \r --Vous êtes un peu trop malin. Quoi qu'il en soit, vous avez mis au jour une nouvelle faille dans notre système. \r --[Vous devez me remercier !]\r --Je vais faire mieux. Vous allez désormais créer des blocs complets et faire du minage.\r --[Si vous le dites.]\r --Avec le minage, vous allez créer de la valeur, de la richesse.\r --[Super, vous m'avez convaincu.]"
+  },
+  "4-5": {
+    "id": "4-5",
+    "chat": "",
+    "text": "To be continued...",
+    "text_fr": "A suivre..."
+  },
+  "5-1-1": {
+    "id": "5-1-1",
+    "chat": "Smith",
+    "text": "--In Octor 5.0, transactions are now packed into blocks. Each block is chained to the next, which makes the blockchain impossible to hack. --You haven't created any blocks yet, Draper, now's a good time. --Include the transaction in the first block and mine for a nonce to start the chain. --Make sure that the hash is small enough, a number less than 1000. --For your trouble, you'll earn 1 Octor for each transaction included. --[Let's go]",
+    "text_fr": "--Dans Octor 5.0, les transactions sont désormais rassemblées dans des blocs enchaînés les uns aux autres, ce qui rend ce système de Blockchain impossible à pirater. --Vous n'avez encore jamais créé de bloc, Draper, c'est l'occasion. --Incluez la transaction au premier bloc et effectuez le minage pour commencer la chaîne. --Pour cela, je vous paie 1 octor par transaction incluse ! --Attention : il faut trouver un hash suffisamment petit : un chiffre inférieur à 1000. --[Ça roule]"
+  },
+  "5-1-2": {
+    "id": "5-1-2",
+    "chat": "Smith",
+    "text": "--Perfect, Draper! --As promised, you were compensated 1 Octor per transaction, or 1 Octor total in this case. ",
+    "text_fr": "--Parfait, Draper !  --Pour récompenser votre succès au minage, je vous crédite comme prévu 1 octor par transaction, soit 1 octor au total dans ce cas."
+  },
+  "5-2-1": {
+    "id": "5-2-1",
+    "chat": "Smith",
+    "text": "--Since you're a natural, can you create a second block, please? --I asked the others to make a few more transactions. --The system will automatically check the validity of the signature.",
+    "text_fr": "--Puisque vous êtes un crack, pouvez-vous créer un deuxième bloc, s'il vous plaît ?  --J'ai demandé aux autres de créer quelques transactions. "
+  },
+  "5-2-2-win": {
+    "id": "5-2-2-win",
+    "chat": "Smith",
+    "text": "--Excellent. You were smart enough to check the transactions before including them in a block. --If we create a block with a false transaction, the community will reject it. --[I hear you loud and clear]",
+    "text_fr": "--Excellent. Vous êtes assez intelligent pour contrôler les transactions avant de les inclure dans un bloc. --Si on crée un bloc avec une fausse transaction, la communauté le rejette. --[Reçu 5/5]"
+  },
+  "5-2-2-lose": {
+    "id": "5-2-2-lose",
+    "chat": "Smith",
+    "text": "--No no no, Draper! You can't fall asleep at the wheel and include any old transaction. --Didn't you see that Raven falsified a transaction with a phoney signature? --It's important to check transactions before including them in a block --In any case, if we create a block with a false transaction, the community will reject it. --[I hear you loud and clear]",
+    "text_fr": "--Mais non, Draper ! Il ne faut pas baisser la garde et inclure tout et n'importe quoi.  --Vous n'avez pas vu que Raven a falsifié une transaction avec une signature bidon ?  --Il est important de contrôler les transactions avant de les inclure dans un bloc. --De toute façon, si on crée un bloc avec une fausse transaction, la communauté le rejette. --[Reçu 5/5]"
+  },
+  "5-3-1": {
+    "id": "5-3-1",
+    "chat": "Smith",
+    "text": "--Time to speed things up. You are now in competition with your colleagues. --You need to mine faster than them if you want to take home the prize. --Wait a second while I set this up...",
+    "text_fr": "--Maintenant, on accélère la cadence : vous êtes désormais en compétition avec vos camarades.  --Il vous faudra miner plus vite que vos collègues pour remporter la prime ! "
+  },
+  "5-3-2-raven": {
+    "id": "5-3-2-raven",
+    "chat": "Raven",
+    "text": "--Well well, Draper. By the time I'm done with you, let's see if still like being Mr Smith's well-trained puppy, yapping for your doggy treats! --[Woof Woof, very funny]",
+    "text_fr": "--Tu vas voir, Draper, je vais te faire regretter ta conduite de toutou bien dressé qui jappe pour avoir son nonos en plastique ! --[Waf Waf, très drôle]"
+  },
+  "5-3-2-bluehat": {
+    "id": "5-3-2-bluehat",
+    "chat": "Bluehat",
+    "text": "--Hey hey Draper, I bet you 5 Octors that I can mine faster than you! --[You're on!]",
+    "text_fr": "--Hé Hé Draper, je te parie 5 octors que je mine le bloc avant toi ! --[Pari tenu !]"
+  },
+  "5-3-2-mudge": {
+    "id": "5-3-2-mudge",
+    "chat": "Mudge",
+    "text": "--Tell me, Draper, don't you find it strange that they're putting us in competition with each other? --[Not really, should I?] --The blockchain is supposed to be about avoiding the errors of capitalism - banks, profit, competition, information asymmetry, fraud... --[I suppose] --Setting us up as rivals, it's just pushing us to cheat in order to finish quicker than the next guy, or laying traps for our colleagues to slow them down.  --Whereas we could just randomly pick the person who would mine the next block, right? --[Yes, ...] Yes, as long as that random draw could be done in an indisputably fair way.",
+    "text_fr": "--Dis, Draper, tu trouves ça normal qu'on nous mette en concurrence ? --[Pourquoi pas ?] --La blockchain, c'est pour ne pas répéter les erreurs du système capitaliste : les banques, le profit, la compétition, l'asymétrie d'information, la fraude. --[Ouais] --Nous mettre en rivalité c'est nous pousser à tricher pour finir plus vite ou à piéger les collègues pour les ralentir.  --Alors qu'il suffirait de tirer au hasard la personne qui réalise la tâche de minage suivante, non ? --[Oui, ...] Oui, à condition de procéder à un tirage au sort dont le résultat ne peut être contesté."
+  },
+  "5-3-3": {
+    "id": "5-3-3",
+    "chat": "Smith",
+    "text": "--Ready? --[Ready !]",
+    "text_fr": "--Prêt ? --[Prêt !] --3 --2 --1 --GO GO GO"
+  },
+  "5-3-4": {
+    "id": "5-3-4",
+    "chat": "Smith",
+    "text": "--3 --2 --1 --GO GO GO",
+    "text_fr": "--Prêt ? --[Prêt !] --3 --2 --1 --GO GO GO"
+  },
+  "5-3-5": {
+    "id": "5-3-5",
+    "chat": "Smith",
+    "text": "--Bravo!  --Keep mining like that, and I'll buy you a pickaxe and a hard hat!",
+    "text_fr": "--Bravo !  --Continuez de miner comme ça, et on vous achètera une pioche et un casque !"
+  },
+  "5-4-1": {
+    "id": "5-4-1",
+    "chat": "Cyberpol",
+    "text": "--Alert!! --Your illicit digital currency activity has broken international financial transaction regulations. --[Is this some kind of joke?] --Under the thinly-disguised cover of crypto-monetisation, criminal actors have used Octor mining to conceal their activity. --Octor is under active investigation for crypto trafficking, forgery, fiscal evasion, corruption, and money laundering. --You are hereby informed that, as a consultant for Octor, you have been placed under arrest. --[Impossible!] --Whether knowingly or not, you have been an accomplice to organized crime. --You must send us your Login immediately. --This will allow us to confirm your identity and inspect previous financial transactions for criminal intent.",
+    "text_fr": "--Attention !!  --Votre activité de devises numériques enfreint les lois internationales de transactions financières !  --[C'est une blague ?] --Sous couvert de crypto-monétisation, le minage d'Octor a permis le blanchiment d'argent lié à la criminalité !  --La société Octor fait actuellement l'objet d'une enquête de crypto-trafic, faux et usages de faux, évasion fiscale, corruption, blanchiment d'argent.  --Nous vous informons que, en tant qu'employé, vous avez été placé sous mandat d'arrêt.  --[Ce n'est pas possible !] --Vous vous êtes rendus complice d'activité économique liée au crime organisé. --Nous vous demandons de nous transmettre votre Login.  --Ce qui nous permettra de vérifier votre identité civile et consulter l'historique de vos activités financières et éventuellement criminelles."
+  },
+  "5-4-2-smith": {
+    "id": "5-4-2-smith",
+    "chat": "Smith",
+    "text": "--[Cyberpol is accusing us of fraud, is that true?] --Fraud?!  --Cyberpol?!  --Impossible, we are fully transparent, clear as crystal. --[Cyberpol is demanding my Login !] --They want the Logins? That's dangerous, they only need the majority of the logins, just two others, to take full control of the system. --[What should I do then?] --You need to c --[What?] --[Hello, are you there?]",
+    "text_fr": "--[Cyberpol nous accuse d'escroquerie, c'est la vérité ?] --Une escroquerie ?! Nous qui sommes propres et clairs comme de l'eau de roche. --C'est honteux !  --[Cyberpol réclame mon Login !] --Ils veulent les Login ?! C'est dangereux, il leur suffit de détenir plus de la majorité des Login, soit deux autres identifiants, pour prendre le contrôle du système. --[Je fais quoi alors?] --Vous devez c --[Quoi ?] --[Allô, vous êtes là ?]"
+  },
+  "5-4-2-mudge": {
+    "id": "5-4-2-mudge",
+    "chat": "Mudge",
+    "text": "--[Did you get the same message from Cyberpol?] --I had a bad feeling about this from the get-go. --I never should have accepted to work for this Mr Smith, who I had never met before this project. --I don't want to end up in prison! I gave them my Login. --[You trust Cyberpol ?] --If don't believe them, check their ID card like I did.",
+    "text_fr": "--[Tu as reçu le même message de Cyberpol ?] --Je sentais bien qu'il y avait un truc bizarre.  --J'aurais jamais dû accepter de travailler pour ce Mr Smith que je ne connaissais pas auparavant.  --Je veux pas finir en prison, je donne mon Login. --[Tu fais confiance à Cyberpol ?] --Si tu leur ne fais pas confiance, verifies leur carte d'idéntité comme moi."
+  },
+  "5-4-2-bluehat": {
+    "id": "5-4-2-bluehat",
+    "chat": "Bluehat",
+    "text": "--[Tell me Bluehat, do you think that Cyberpol has good reason to believe that one of us is working for organized crime ?] --Perhaps so. Perhaps not. --[Very helpful] --Listen, Draper- at this point I don't know know any more than you do. --Wait, how about this? You investigate the situation, and I'll do the same. When you're ready, let me know and we'll discuss and decide. --Together. Between the two of us, we control 40% of the network. --[Allright, that seems smart]",
+    "text_fr": "--[Dis, Bluehat, tu penses que Cyberpol a raison de croire que l'un d'entre-nous travaille pour le crime organisé ?] --Peut-être que oui. Peut-être que non. --[Ta réponse ne m'aide pas.]  --Sincèrement, Draper : là, maintenant, je n'en sais pas plus que toi.   --Attends, voilà ce que je te propose. Tu fais tes petites investigations, moi aussi. Ensuite, tu reviens vers moi, on en discute et on décide.  --Ensemble. À nous deux, on représente déjà 40% du réseau. --[OK, ça me paraît prudent.]"
+  },
+  "5-4-2-raven-1": {
+    "id": "5-4-2-raven-1",
+    "chat": "Raven",
+    "text": "--[Are you going to obey Cyberpol?] --Is that a joke? I don't know them, I don't trust them. --Never would I give them my private key! I'd sooner drop dead! --[What a rebel you are] --If you say so, but believe me, you should at the very least make sure you're not dealing with con artists. --[And how could I know that?] --Send them an encrypted message. For example :",
+    "text_fr": "--[Tu vas obéir à Cyberpol ?] --Tu rigoles, je les connais pas, je leur fais pas confiance.  --Jamais je leur donnerai mon Login ! Qu'ils crèvent ! --[T'es un rebelle, toi !] --Si tu le dis, mais crois-moi, tu devrais au moins t'assurer que tu n'as pas à faire à des malfaiteurs ! --[Et comment je peux le savoir ?] --Envoie-leur un message chiffré. Par exemple :"
+  },
+  "5-4-2-raven-2": {
+    "id": "5-4-2-raven-2",
+    "chat": "Raven",
+    "text": "What is your first name?",
+    "text_fr": "Quel est votre prénom ?"
+  },
+  "5-4-2-raven-3": {
+    "id": "5-4-2-raven-3",
+    "chat": "Raven",
+    "text": "--There you go. If they are who they say they are, they'll be able to decrypt your question and reply. Otherwise... --[Otherwise, what?] --They're just gangsters, pretending to be cops!",
+    "text_fr": "--Voilà, s'ils sont bien ce qu'ils prétendent, ils pourront le déchiffrer et te répondre. Sinon... --[Sinon quoi ?] --Ce sont des gangsters !"
+  },
+  "5-4-3": {
+    "id": "5-4-3",
+    "chat": "Cyberpol",
+    "text": "--[I would like to verify your ID card] --Of course, that is your right. --You'll find it in your inventory.",
+    "text_fr": "--[J'aimerais vérifier votre carte d'identité] --Bien entendu, c'est votre droit. --Vous le trouverez dans votre inventaire."
+  },
+  "5-4-4": {
+    "id": "5-4-4",
+    "chat": "Cyberpol",
+    "text": "--[058418333116462003115462154194581137462388003137115116462219333237163444] --What did you say? Your message was garbled --[I send you an encrypted question. You simply need to decrypt the message with your private key.] --We don't have time to lose with silly brain teasers! --[Do you want my Login or not?] --Ok fine, if you insist... --The answer to your question is yes, of course.",
+    "text_fr": "--[625581163445462163115116462501194116137163462603137639219194237462444] --Que dites-vous ? Peut-être que le contenu de votre message a été corrompu.  --[Je vous ai envoyé une question chiffrée. Il suffit de déchiffrer le message avec votre clé privé.] --Nous n'avons pas de temps à perdre avec vos casse-têtes mathématiques ! --[Vous voulez mon Login ou pas ?] --D'accord, si vous insistez...  --La réponse à votre message est oui, bien entendu."
+  },
+  "5-4-5": {
+    "id": "5-4-5",
+    "chat": "Bluehat",
+    "text": "--So, Draper? What do you think? Can we trust them or not? --[Yes, it is indeed Cyberpol | No, the ID card is fake | No, they don't have the private key]",
+    "text_fr": "--Alors, Draper ? Tu en penses quoi ? On leur fait confiance ou pas ? --[Oui, il s'agit bien de Cyberpol | Non, la carte d'identité est fausse | Non, il n'a pas la clé privée]"
+  },
+  "5-4-6-yes": {
+    "id": "5-4-6-yes",
+    "chat": "Bluehat",
+    "text": "--[Everything checks out, I'll give them my Login] --OK, I'll do the same. Let's hope you're right...",
+    "text_fr": "--[Tout est en ordre, je leur donne mon Login]  --OK. Je fais pareil. Espérons que tu as raison."
+  },
+  "5-4-6-no-id": {
+    "id": "5-4-6-no-id",
+    "chat": "Bluehat",
+    "text": "--I don't understand, I checked their ID too, and it's fine. --I don't get what game you're playing at, but as for me, I'm giving them my Login! --[No! if you do that we're screwed!]",
+    "text_fr": "--Je ne comprends pas, j'ai checké leur ID, elle est correcte.  --Je ne sais pas à quoi tu joues, mais pour ma part je leur donne mon Login ! --[Non, si tu fais ça, on est foutu !]"
+  },
+  "5-4-6-no-message": {
+    "id": "5-4-6-no-message",
+    "chat": "Bluehat",
+    "text": "--[It smells fishy- they weren't able to decipher my message] --OK, I'll follow you. Let's hope it's enough! --Yes, only Mudge will give over his Login.",
+    "text_fr": "--[Ça sent mauvais : ils n'ont pas pu déchiffré mon message.] --OK, je te suis. Espérons que ça suffira. --Oui, seul Mudge devrait donner son Login."
+  }
+}

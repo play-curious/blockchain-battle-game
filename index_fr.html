@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Blockchain Battle - Episode 1 - Play Curious</title>
+    <link href="game.css" rel="stylesheet"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <meta name="description" content=""/>
+
+    <!-- Twitter and FB metadata -->
+    <meta name="twitter:card" content="player"/>
+    <meta name="twitter:site" content="@PlayCuriousGame"/>
+
+    <meta property="og:type" content="game"/>
+    <meta property="og:title" content="Blockchain Battle - Episode 1"/>
+    <meta property="og:description" content="Incarnez un hacker expert en cyber-sécurité pour percer les sécrets de la blockchain et de la cryptomonnaie"/>
+    <meta property="og:url" content="https://playcurious.games/games/blockchain-battle-1"/>
+    <meta property="og:image" content="https://playcurious.games/games/blockchain-battle-1/images/splash.jpg"/>
+
+    <meta name="twitter:player" content="https://www.youtube.com/embed/YKyrD7rBYmo"/>
+    <meta name="twitter:player:width" content="560"/>
+    <meta name="twitter:player:height" content="315"/>
+
+    <meta property="og:video:url" content="https://www.facebook.com/watch/?v=152181375746557">
+    <meta property="og:video:secure_url" content="https://www.facebook.com/watch/?v=152181375746557"/>
+    <meta property="og:video:type" content="video/mp4"/>
+    <meta property="og:video:width" content="560"/>
+    <meta property="og:video:height" content="315"/>
+
+    <!-- Google Analytics -->
+    <script>
+      window.ga = window.ga || function () {
+        (ga.q = ga.q || []).push(arguments);
+      };
+      ga.l = + new Date();
+      ga("create", "UA-115175051-1", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("send", "pageview");
+    </script>
+    <script async="async" src="https://www.google-analytics.com/analytics.js"></script>
+    <!-- End Google Analytics -->
+  </head>
+  <body>
+    <div id="game-parent">
+      <canvas id="pixi-canvas"></canvas>
+    </div>
+
+    <div id="descriptive-content">
+      <h3 class="text-accent">Blockchain Battle - Episode 1</h3>
+      <p>
+        Incarnez un hacker expert en cyber-sécurité pour percer les secrets de la blockchain et de la cryptomonnaie.
+      </p>
+
+      <p>
+        Prêt pour la suite ?
+        <a href="episode2_fr.html">Jouer à l'épisode 2 de Blockchain Battle !</a>
+      </p>
+
+      <p class="text-accent">Un jeu
+        <a href="https://playcurious.games/fr" class="text-accent">Play Curious</a>
+      </p>
+
+      <p>
+        Créé avec le soutien de <a href="https://www.science-animation.org/fr">Science Animation</a>, <a href="http://www.france-ioi.org/">France IOI</a>, et la <a href="https://www.fondation-blaise-pascal.org/">fondation Blaise Pascal</a>.
+      </p>
+
+      <p>Pour plus d'informations sur le jeu, rendez-vous sur <a href="https://playcurious.games/fr/blockchainbattle">la page dédiée de notre site</a>.</p>
+
+      <p class="text-accent">Ce jeu est open source</p>
+      <p>Vous pouvez <a href="https://github.com/play-curious/blockchain-battle-game">voir le code source sur GitHub</a>
+      </p>
+
+      <h4 class="text-accent">Problème d'affichage ?</h4>
+      <p>
+        Vérifiez que vous utilisez bien une version récente d'un navigateur compatible (Firefox, Chrome ou Safari).
+      </p>
+      <p>
+        Si, malgré cela, vous rencontrez toujours des problèmes, merci de nous écrire à
+        <i>hello</i>
+        AT
+        <i>playcurious</i>
+        DOT
+        <i>games</i>.
+      </p>
+
+      <p class="build-info">
+        Built on
+        <%= date.toUTCString() %>, version
+        <%= commit %>
+        <%= branch %>
+      </p>
+
+      <div id="sharing">
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Je%20kiffe%20Blockchain%20Battle%20de%20%40PlayCuriousGame" data-size="large" via="@PlayCuriousGame">
+          Tweet
+        </a>
+
+        <div class="fb-share-button" data-href="https://playcurious.games/games/blockchain-battle-1" data-layout="button" data-size="large" data-mobile-iframe="true">
+          <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplaycurious.games%2Fgames%blockchain-battle-1&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a >
+        </div>
+      </div>
+    </div>
+
+    <!-- build:js deps.js -->
+    <script src="node_modules/underscore/underscore.js"></script>
+    <script src="node_modules/pixi.js-legacy/dist/pixi-legacy.js"></script>
+    <script src="node_modules/pixi-filters/dist/pixi-filters.js"></script>
+    <script src="node_modules/pixi-multistyle-text/dist/pixi-multistyle-text.umd.js"></script>
+    <script src="node_modules/howler/dist/howler.js"></script>
+    <script src="node_modules/fontfaceobserver/fontfaceobserver.js"></script>
+    <script src="node_modules/jsbi/dist/jsbi-umd.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js-bundle -->
+    <script type="module" src="src/episode1.js"></script>
+    <!-- endbuild -->
+
+    <!-- Twitter -->
+    <script>
+      window.twttr = (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) 
+          return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs
+          .parentNode
+          .insertBefore(js, fjs);
+
+        t._e = [];
+        t.ready = function (f) {
+          t
+            ._e
+            .push(f);
+        };
+
+        return t;
+      })(document, "script", "twitter-wjs");
+    </script>
+
+    <div id="fb-root"></div>
+    <script>
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) 
+          return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_EN/sdk.js#xfbml=1&version=v3.2";
+        fjs
+          .parentNode
+          .insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+  </body>
+</html>

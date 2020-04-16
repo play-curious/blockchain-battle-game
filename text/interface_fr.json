@@ -1,0 +1,210 @@
+{
+  "chat": {
+    "id": "chat",
+    "text": "Messagerie"
+  },
+  "scratchpad": {
+    "id": "scratchpad",
+    "text": "Brouillon"
+  },
+  "inventory": {
+    "id": "inventory",
+    "text": "Inventaire"
+  },
+  "objectives": {
+    "id": "objectives",
+    "text": "Objectifs"
+  },
+  "ledger": {
+    "id": "ledger",
+    "text": "Registre"
+  },
+  "network": {
+    "id": "network",
+    "text": "Réseau"
+  },
+  "blockchain": {
+    "id": "blockchain",
+    "text": "Blockchain"
+  },
+  "transactions": {
+    "id": "transactions",
+    "text": "Transactions"
+  },
+  "toolbox": {
+    "id": "toolbox",
+    "text": "Outils"
+  },
+  "transactions-new": {
+    "id": "transactions-new",
+    "text": "Ajouter"
+  },
+  "transactions-debit": {
+    "id": "transactions-debit",
+    "text": "Débiter"
+  },
+  "transactions-credit": {
+    "id": "transactions-credit",
+    "text": "Créditer"
+  },
+  "transactions-amount": {
+    "id": "transactions-amount",
+    "text": "Montant"
+  },
+  "transactions-hash": {
+    "id": "transactions-hash",
+    "text": "Hash"
+  },
+  "transactions-signature": {
+    "id": "transactions-signature",
+    "text": "Signature"
+  },
+  "transactions-create": {
+    "id": "transactions-create",
+    "text": "Créer"
+  },
+  "transactions-cancel": {
+    "id": "transactions-cancel",
+    "text": "Annuler"
+  },
+  "transactions-accept": {
+    "id": "transactions-accept",
+    "text": "Accepter"
+  },
+  "transactions-reject": {
+    "id": "transactions-reject",
+    "text": "Rejeter"
+  },
+  "transactions-include": {
+    "id": "transactions-include",
+    "text": "Inclure"
+  },
+  "transactions-exclude": {
+    "id": "transactions-exclude",
+    "text": "Exclure"
+  },
+  "blockchain-mine": {
+    "id": "blockchain-mine",
+    "text": "Miner"
+  },
+  "blockchain-create": {
+    "id": "blockchain-create",
+    "text": "Créer"
+  },
+  "blockchain-miner": {
+    "id": "blockchain-miner",
+    "text": "Mineur"
+  },
+  "blockchain-transactions": {
+    "id": "blockchain-transactions",
+    "text": "Transactions"
+  },
+  "blockchain-nonce": {
+    "id": "blockchain-nonce",
+    "text": "Nonce"
+  },
+  "blockchain-previous-block": {
+    "id": "blockchain-previous-block",
+    "text": "Bloc précédent"
+  },
+  "blockchain-reward": {
+    "id": "blockchain-reward",
+    "text": "Récompense"
+  },
+  "blockchain-no-transactions": {
+    "id": "blockchain-no-transactions",
+    "text": "Aucune transaction incluse"
+  },
+  "hint": {
+    "id": "hint",
+    "text": "Astuce"
+  },
+  "objectives-hint-1": {
+    "id": "objectives-hint-1",
+    "text": "Besoin d'aide ? "
+  },
+  "objectives-hint-2": {
+    "id": "objectives-hint-2",
+    "text": "Ce n'est pas encore clair ?"
+  },
+  "objectives-hint-3": {
+    "id": "objectives-hint-3",
+    "text": "Tu veux en savoir plus ?"
+  },
+  "objectives-hint-cost": {
+    "id": "objectives-hint-cost",
+    "text": "Objectif atteint : +5 pts  l  Astuce affichée : -1 pts"
+  },
+  "score": {
+    "id": "score",
+    "text": "Score :"
+  },
+  "points-part-done": {
+    "id": "points-part-done",
+    "text": "Niveau :part terminé !"
+  },
+  "points-objectives": {
+    "id": "points-objectives",
+    "text": "Objectifs : :succeeded / :total"
+  },
+  "points-hints": {
+    "id": "points-hints",
+    "text": "Astuces : :used / :total"
+  },
+  "points-points": {
+    "id": "points-points",
+    "text": "Points : :points / :total "
+  },
+  "ledger-start": {
+    "id": "ledger-start",
+    "text": "début"
+  },
+  "ledger-balance": {
+    "id": "ledger-balance",
+    "text": "solde"
+  },
+  "clipboard-copy": {
+    "id": "clipboard-copy",
+    "text": "Copier"
+  },
+  "clipboard-paste": {
+    "id": "clipboard-paste",
+    "text": "Coller"
+  },
+  "toolbox-hashing": {
+    "id": "toolbox-hashing",
+    "text": "Hachage"
+  },
+  "toolbox-encryption": {
+    "id": "toolbox-encryption",
+    "text": "Chiffrement"
+  },
+  "toolbox-encrypt": {
+    "id": "toolbox-encrypt",
+    "text": "Chiffrer"
+  },
+  "toolbox-decrypt": {
+    "id": "toolbox-decrypt",
+    "text": "Déchiffrer"
+  },
+  "network-status-draper": {
+    "id": "network-status-draper",
+    "text": "Nouveau ici"
+  },
+  "network-status-bluehat": {
+    "id": "network-status-bluehat",
+    "text": "Oubliez pas de vous mettre à jour"
+  },
+  "network-status-raven": {
+    "id": "network-status-raven",
+    "text": "Badass du Dark Ouaibe !"
+  },
+  "network-status-mudge": {
+    "id": "network-status-mudge",
+    "text": "En plein calcul, ne pas déranger"
+  },
+  "network-status-cyberpol": {
+    "id": "network-status-cyberpol",
+    "text": "Ordinem, legem, securitas"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "1": {
+    "id": "1",
+    "text": "--[:500] Vous aimeriez que votre argent  --[:2000] ne soit plus géré par les systèmes centralisés  --[:5000] que sont les États et les banques traditionnelles ?  --[:10700] Découvrez Octor ! --[:12400] Octor est une nouvelle crypto-monnaie  --[:14500] avec laquelle nous pouvons effectuer des transactions  --[:17400] avec n'importe qui dans le monde  --[:19000] et en toute sécurité.  --[:21500] Bienvenue dans le futur, avec Octor"
+  },
+  "2": {
+    "id": "2",
+    "text": "--[:1870] Bienvenue dans Octor 2.0 --[:5000] Désormais, chaque transaction est résumée par un hash.  --[:9268] Le Hash est une petite suite de caractères calculée par l’ordinateur  --[:13209] qui sert à identifier tout un ensemble de données,  --[:16494] comme par exemple une image, un son, ou un texte. --[:20581] Cette suite de caractères est formatée.  --[:22772] Par exemple dans Octor, le hash est composé de 4 chiffres.  --[:28098] Un moindre changement dans les données, et le résultat du Hash est très différent.  --[:33542] Le calcul du hash est rapide pour l’ordinateur.  --[:36564] Inversement, recomposer les données à partir du hash est très compliqué.  --[:42621] Désormais, pour identifier chaque transition, Octor crée un hash unique. --[:47511] C’est un peu comme l’empreinte digitale d’une personne.  --[:51087] Bienvenue dans le futur avec Octor…"
+  },
+  "3": {
+    "id": "3",
+    "text": "--[:2000]Bienvenue dans Octor 3.0,  --[:4106]où on peut désormais échanger les messages secrets.   --[:7000]Quand on envoie les messages via un réseau informatique,  --[:9900]il est possible qu’on nous espionne. --[:11600]Pour empêcher un espion de lire nos messages, on les chiffre.  --[:15000]C’est à dire qu’on le transforme en une suite de caractères incompréhensibles.   --[:20000]Pour cela, on utilise une paire de clés :  --[:22400]une clé sert à chiffrer le message --[:25000]et l’autre sert à le déchiffrer.   --[:27800]Avec Octor, chaque utilisateur a sa propre paire de clés.   --[:31000]Il garde la clé privée pour lui et montre la clé publique à tout le monde.  --[:37000]Pour envoyer un message, l'expéditeur chiffre le message  --[:40800]avec la clé publique du destinataire.  --[:44000]Lorsque le message chiffré est en route, un espion ne peut plus le lire !   --[:48500]Quand le destinataire reçoit le message, il le déchiffre avec sa clé privée.  --[:53500]Bienvenue dans le futur avec Octor…"
+  },
+  "4": {
+    "id": "4",
+    "text": "--[:500]Bienvenue dans Octor 4.0,  --[:3200]la cryptomonnaie la plus sécure du monde !  --[:6500]Comment être sûr de l’auteur d’une transaction,  --[:8800]alors que tous les utilisateurs sont anonymes ?   --[:12000]Avec la signature numérique, c’est tout à fait possible.  --[:16000]Lorsqu’un utilisateur crée une transaction,  --[:18000]il calcule le hash, puis le chiffre avec sa clé privée.  --[:23500]Ce chiffre sert de signature numérique.  --[:26000]et il est ajouté à la transaction.   --[:29000]Pour vérifier la signature, les autres utilisateurs la déchiffrent   --[:33000]avec la clé publique de l’expéditeur.  --[:35500]S’ils obtiennent le même hash, alors la signature est bonne,  --[:39000]et on sait qui a créé la transaction.  --[:42000]Octor : la cryptomonnaie du futur !  "
+  },
+  "5": {
+    "id": "5",
+    "text": "--Bienvenue dans Octor 5.0  --[:3000]Dans cette nouvelle version, les transactions ne sont plus publiées en temps réel.  --[:7000]Mais elles sont publiées à intervalles réguliers sous forme de blocs.  --[:11000]Chaque bloc publié fait référence au bloc qui le précède,  --[:14000]formant ainsi une chaîne de blocs, ou “blockchain”.  --[:17500]Pour former la chaîne, chaque bloc contient le hash du bloc précédent.  --[:21500]Si un utilisateur malveillant essaie de changer les informations d'un bloc de la chaine,  --[:27000]il modifie le hash de celui-ci. --[:29500]Comme ce nouveau hash ne correspond plus, on peut détecter la tentative d’intrusion.  --[:34500]N’importe-quel utilisateur peut créer un bloc.  --[:37500]Mais pour déterminer lequel créera le prochain, on organise un défi à relever.  --[:43000]Chacun choisit un chiffre, appelé “nonce” qui sera inclus dans le futur bloc. --[:48000]Avec ce nonce ajouté, il faut que le hash du bloc soit inférieur à un certain seuil.  --[:53500]Ce travail est appelé le minage. --[:56000]Le premier qui arrive à trouver un nonce permettant que le hash soit suffisamment petit --[:61000]a gagné, et il est récompensé avec des Octors.  --[:65000]Bienvenue dans le futur avec Octor…"
+  }
+}
